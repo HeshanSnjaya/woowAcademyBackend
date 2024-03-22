@@ -137,7 +137,10 @@ def finish_test(request):
             question_answers = QuestionAnswer.objects.filter(languageTestId=language_test_id)
             total_marks = question_answers.aggregate(total_marks=Sum('answerId__marks'))['total_marks']
             language_test.totalMarks = total_marks
-            language_test.status = 'completed'
+            if total_marks >= 60:
+                language_test.status = 'pass'
+            else:
+                language_test.status = 'fail'
             language_test.save()
 
             return JsonResponse({'message': 'Test completed successfully.', 'totalMarks': total_marks}, status=200)
@@ -156,4 +159,3 @@ def predict_score(answer):
     rounded_score = round(predicted_score[0][0])
 
     return rounded_score
-

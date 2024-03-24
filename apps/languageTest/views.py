@@ -96,7 +96,7 @@ def submit_answer(request):
 
             rounded_score = predict_score(answer_description)
             additional_points = 0
-            if 6 <= duration <= 9:
+            if 6 <= rounded_score <= 9:
                 if duration <= 6:
                     additional_points = 0.5
                 elif 6 < duration <= 8:
@@ -138,12 +138,15 @@ def finish_test(request):
             total_marks = question_answers.aggregate(total_marks=Sum('answerId__marks'))['total_marks']
             language_test.totalMarks = total_marks
             if total_marks >= 60:
-                language_test.status = 'pass'
+                status = 'pass'
             else:
-                language_test.status = 'fail'
+                status = 'fail'
+            language_test.status = status
             language_test.save()
 
-            return JsonResponse({'message': 'Test completed successfully.', 'totalMarks': total_marks}, status=200)
+            return JsonResponse(
+                {'message': 'Test completed successfully.', 'totalMarks': total_marks, 'status': status},
+                status=200)
 
         except LanguageTest.DoesNotExist:
             return JsonResponse({'error': 'Invalid LanguageTest ID'}, status=400)

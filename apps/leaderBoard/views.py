@@ -13,9 +13,6 @@ import numpy as np
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
-# Load the dataset
-df = pd.read_csv('D:\DjangoProjects\woow-academy-backend\job_dataset_3.csv')
-
 from apps.users.models import CV_Profile, Student, Skill, Education
 
 best_clf = joblib.load('D:\DjangoProjects\woow-academy-backend\decision_tree_model_2.pkl')

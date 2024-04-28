@@ -1,0 +1,923 @@
+[
+  {
+    "marks": 1,
+    "questionId":1,
+    "question": "Rich countries often give money to poorer countries, but it does not solve poverty. Therefore, developed countries should give other types of help to the poor countries rather than financial aid. To what extent do you agree or disagree?",
+    "keywords": ["Financial aid", "Poverty", "Developed countries", "Developing/poor countries", "Other forms of assistance/help", "Training and technology", "Education and healthcare"]
+  },
+
+  {
+    "marks": 2,
+    "questionId":1,
+    "question": "Rich countries often give money to poorer countries, but it does not solve poverty. Therefore, developed countries should give other types of help to the poor countries rather than financial aid. To what extent do you agree or disagree?",
+    "keywords": ["Poverty", "Countries", "Training", "Technology","Healthcare", "Challenge" ]
+  }, 
+
+  {
+    "marks": 3,
+    "questionId":1,
+    "question": "Rich countries often give money to poorer countries, but it does not solve poverty. Therefore, developed countries should give other types of help to the poor countries rather than financial aid. To what extent do you agree or disagree?",
+    "keywords": ["Training", "Technology","Education", "Healthcare","Issue", "Rich nations", "Different forms of help" ]
+  }, 
+  
+  {
+      "marks": 4,
+      "questionId":1,
+      "question": "Rich countries often give money to poorer countries, but it does not solve poverty. Therefore, developed countries should give other types of help to the poor countries rather than financial aid. To what extent do you agree or disagree?",
+      "keywords": ["Financial aid", "Poverty", "Developed countries", "Developing/poor countries", "Other forms of assistance/help", "Training and technology", "Education and healthcare", "Different types of help", "Rich nations"]
+ },
+ 
+  {
+    "marks": 5,
+    "questionId":1,
+    "question": "Rich countries often give money to poorer countries, but it does not solve poverty. Therefore, developed countries should give other types of help to the poor countries rather than financial aid. To what extent do you agree or disagree?",
+    "keywords": ["Financial aid", "Poverty", "Developed countries", "Developing/poor countries", "Other forms of assistance/help", "Training and technology", "Education and healthcare", "Different types of help", "Rich nations", "Skills training", "Technology transfer"]
+  }, 
+  {
+    "marks": 6,
+    "questionId":1,
+    "question": "Rich countries often give money to poorer countries, but it does not solve poverty. Therefore, developed countries should give other types of help to the poor countries rather than financial aid. To what extent do you agree or disagree?",
+    "keywords": ["Financial aid", "Poverty", "Developed countries", "Developing/poor countries", "Other forms of assistance/help", "Training and technology", "Education and healthcare", "Different types of help", "Rich nations", "Skills training", "Technology transfer", "Capacity-building initiatives", "Local communities", "Long-term economic development", "Sustainable development", "Multifaceted drivers of poverty"]
+  }, 
+  {
+    "marks": 7,
+    "questionId":1,
+    "question": "Rich countries often give money to poorer countries, but it does not solve poverty. Therefore, developed countries should give other types of help to the poor countries rather than financial aid. To what extent do you agree or disagree?",
+    "keywords": ["Financial aid", "Poverty", "Developed countries", "Developing/poor countries", "Other forms of assistance/help", "Training and technology", "Education and healthcare", "Different types of help", "Rich nations", "Skills training", "Technology transfer", "Capacity-building initiatives", "Local communities", "Long-term economic growth", "Self-reliance", "Multifaceted nature of poverty", "Human capital development", "Good governance", "Enabling environments", "Sustainable economic opportunities", "Institutions", "Inclusive development", "Tailored support", "Access to quality education", "Sustainable livelihoods", "Systemic barriers to development", "Comprehensive support mechanisms", "Systemic drivers of poverty", "Participatory development approaches"]
+  },
+  {
+    "marks": 8,
+    "questionId":1,
+    "question": "Rich countries often give money to poorer countries, but it does not solve poverty. Therefore, developed countries should give other types of help to the poor countries rather than financial aid. To what extent do you agree or disagree?",
+    "keywords": ["Financial aid", "Poverty", "Developed countries", "Developing/poor countries", "Other forms of assistance/help", "Training and technology", "Education and healthcare", "Different types of help", "Rich nations", "Skills training", "Technology transfer", "Capacity-building initiatives", "Local communities", "Long-term economic growth", "Self-reliance", "Human capital development", "Good governance", "Enabling environments", "Sustainable economic opportunities", "Institutions", "Inclusive development", "Participatory approach", "Inclusive governance", "Policy reforms", "Knowledge exchange", "Infrastructure development", "Multifaceted nature of poverty", "Systemic factors", "Entrepreneurship", "Economic diversification", "Sustainable growth", "Pro-poor economic policies"]
+  },
+  {
+    "marks": 9,
+    "questionId":1,
+    "question": "Rich countries often give money to poorer countries, but it does not solve poverty. Therefore, developed countries should give other types of help to the poor countries rather than financial aid. To what extent do you agree or disagree?",
+    "keywords": ["Financial aid", "Poverty", "Developed countries", "Developing/poor countries", "Other forms of assistance/help", "Training and technology", "Education and healthcare", "Different types of help", "Rich nations", "Skills training", "Technology transfer", "Capacity-building initiatives", "Local communities", "Long-term economic growth", "Self-reliance", "Human capital development", "Good governance", "Enabling environments", "Sustainable economic opportunities", "Institutions", "Inclusive development", "Participatory approach", "Inclusive governance", "Policy reforms", "Knowledge exchange", "Infrastructure development", "Multifaceted nature of poverty", "Systemic factors", "Entrepreneurship", "Economic diversification", "Sustainable growth", "Pro-poor economic policies", "Marginalized communities", "Holistic approaches", "Context-specific approach", "Comprehensive strategies", "Strategic infrastructure development", "Active participation"]
+  },
+  {
+    "marks": 10,
+    "questionId":1,
+    "question": "Rich countries often give money to poorer countries, but it does not solve poverty. Therefore, developed countries should give other types of help to the poor countries rather than financial aid. To what extent do you agree or disagree?",
+    "keywords": ["Financial aid", "Poverty", "Developed countries", "Developing/poor countries", "Other forms of assistance/help", "Training and technology", "Education and healthcare", "Different types of help", "Rich nations", "Skills training", "Technology transfer", "Capacity-building initiatives", "Local communities", "Long-term economic growth", "Self-reliance", "Human capital development", "Good governance", "Enabling environments", "Sustainable economic opportunities", "Institutions", "Inclusive development", "Participatory approach", "Inclusive governance", "Policy reforms", "Knowledge exchange", "Infrastructure development", "Multifaceted nature of poverty", "Systemic factors", "Entrepreneurship", "Economic diversification", "Sustainable growth", "Pro-poor economic policies", "Marginalized communities", "Holistic approaches", "Context-specific approach", "Comprehensive strategies", "Strategic infrastructure development", "Active participation", "Community-driven development", "Sustainable livelihoods"]
+  } ,
+
+  {
+    "marks": 1,
+    "questionId":2,
+    "question": "Write about the following topic.Some people believe that teaching children at home is best for a child's development while others think that it is important for children to go to school. Discuss the advantages of both methods and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Teaching at home", "Child development", "School attendance", "Advantages", "Personal opinion", "Reasons", "Relevant examples"]
+  },
+  {
+    "marks": 2,
+    "questionId":2,
+    "question": "Write about the following topic. Some people believe that teaching children at home is best for a child's development while others think that it is important for children to go to school. Discuss the advantages of both methods and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Teaching at home", "Child development", "School attendance", "Advantages", "Personal opinion", "Reasons", "Relevant examples", "Individual attention", "Socialization skills"]
+  },
+  {
+    "marks": 3,
+    "questionId":2,
+    "question": "Write about the following topic. Some people believe that teaching children at home is best for a child's development while others think that it is important for children to go to school. Discuss the advantages of both methods and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Parental involvement", "Socialization", "Individual attention", "Decision-making", "Preference", "Merits and drawbacks", "Controversial topic", "Pros and cons", "Skill development"]
+  },
+  {
+    "marks": 4,
+    "questionId":2,
+    "question": "Write about the following topic. Some people believe that teaching children at home is best for a child's development while others think that it is important for children to go to school. Discuss the advantages of both methods and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Parental involvement", "Socialization", "Individual attention", "Decision-making", "Preference", "Merits and drawbacks", "Controversial topic", "Pros and cons", "Skill development", "Educational environment", "Personalized learning", "Academic performance", "Emotional well-being"]
+  },
+  {
+    "marks": 5,
+    "questionId":2,
+    "question": "Write about the following topic. Some people believe that teaching children at home is best for a child's development while others think that it is important for children to go to school. Discuss the advantages of both methods and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Personalized attention", "Social interaction", "Educational choices", "Parental involvement", "Educational environment", "Decision-making", "Debate", "Advocacy", "Holistic growth", "Curriculum flexibility", "Skill development", "Experiential learning", "Diverse experiences"]
+  },
+  {
+    "marks": 6,
+    "questionId":2,
+    "question": "Write about the following topic. Some people believe that teaching children at home is best for a child's development while others think that it is important for children to go to school. Discuss the advantages of both methods and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Structured interactions", "Educational goals", "Personalized instruction", "Holistic growth", "Parental choice", "Educational debate", "Socialization", "Individual circumstances", "Interpersonal skills", "Diverse perspectives", "Tailored curricula", "Educational environment", "Peer interactions"]
+  },
+  {
+    "marks": 7,
+    "questionId":2,
+    "question": "Write about the following topic. Some people believe that teaching children at home is best for a child's development while others think that it is important for children to go to school. Discuss the advantages of both methods and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Educational philosophies", "Structured environment", "Nurturing family environment", "Experienced educators", "Social skill development", "Specific needs of the child", "Educational resources", "Holistic growth", "Educational approaches", "Contentious debate", "Educational goals", "Social environments", "Flexible learning environment"]
+  },
+  {
+    "marks": 8,
+    "questionId":2,
+    "question": "Write about the following topic. Some people believe that teaching children at home is best for a child's development while others think that it is important for children to go to school. Discuss the advantages of both methods and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Independence", "Structured learning experiences", "Personalized attention", "Flexibility", "Developmental growth", "Specialized resources", "Holistic development", "Nurturing environment", "Interpersonal skills", "Educational philosophies", "Self-discipline", "Socialization", "Tailored curriculum"]
+  },
+  {
+    "marks": 9,
+    "questionId":2,
+    "question": "Write about the following topic. Some people believe that teaching children at home is best for a child's development while others think that it is important for children to go to school. Discuss the advantages of both methods and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Multifaceted", "Carefully considered", "Well-rounded growth", "Extracurricular activities", "Well-being", "Essential life skills", "Potential drawbacks", "Structured environment", "Weighted decision", "Holistic development", "Socialization", "Personalized instruction", "Flexible learning", "Well-being"]
+  },
+  {
+    "marks": 10,
+    "questionId":2,
+    "question": "Write about the following topic. Some people believe that teaching children at home is best for a child's development while others think that it is important for children to go to school. Discuss the advantages of both methods and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Nuanced", "Balanced consideration", "Optimal educational approach", "Holistic development", "Structured learning environment", "Well-rounded growth", "Emotional well-being", "Extracurricular activities", "Essential life skills", "Future success", "Carefully weighed decision", "Potential benefits", "Nurturing family environment", "Specific needs", "Educational goals"]
+  },
+  {
+    "marks": 1,
+    "questionId":3,
+    "question": "Reporting of crimes and other kinds of violent news on television and in newspapers can have adverse consquences. This kind of information should be restricted from being shown in the media. To what extent do you agree or disagree with this statement?",
+    "keywords": ["Reporting", "Crimes", "Violent news", "Television", "Newspapers", "Adverse consequences", "Restricted", "Media"]
+  },
+  {
+    "marks": 2,
+    "questionId":3,
+    "question": "Reporting of crimes and other kinds of violent news on television and in newspapers can have adverse consquences. This kind of information should be restricted from being shown in the media. To what extent do you agree or disagree with this statement?",
+    "keywords": ["Crimes", "Violent news", "Television", "Newspapers", "Adverse consequences", "Restricted", "Media", "Influence", "Corruption", "Limitation", "Disagreement", "Influence", "Impact", "Ban", "Mind", "Youngsters", "Effects", "Society", "Promote", "Activities"]
+  },
+  {
+    "marks": 3,
+    "questionId":3,
+    "question": "Reporting of crimes and other kinds of violent news on television and in newspapers can have adverse consquences. This kind of information should be restricted from being shown in the media. To what extent do you agree or disagree with this statement?",
+    "keywords": ["Adverse consequences", "Crimes", "Violent news", "Television", "Newspapers", "Restricted", "Media", "Influence", "Corruption", "Limitation", "Disagreement", "Influence", "Impact", "Ban", "Mind", "Youngsters", "Effects", "Society", "Promote", "Activities", "Banned", "Corrupt", "Restricted", "Influence", "Adverse effects", "Increase", "Violence"]
+  },
+  {
+    "marks": 4,
+    "questionId":3,
+    "question": "Reporting of crimes and other kinds of violent news on television and in newspapers can have adverse consquences. This kind of information should be restricted from being shown in the media. To what extent do you agree or disagree with this statement?",
+    "keywords": ["Adverse consequences", "Crimes", "Violent news", "Television", "Newspapers", "Restricted", "Media", "Influence", "Corruption", "Limitation", "Disagreement", "Influence", "Impact", "Ban", "Mind", "Youngsters", "Effects", "Society", "Promote", "Activities", "Banned", "Corrupt", "Restricted", "Influence", "Adverse effects", "Increase", "Violence", "Reporting", "Incidents", "Encourage", "Consequences", "Extent"]
+  },
+  {
+    "marks": 5,
+    "questionId":3,
+    "question": "Reporting of crimes and other kinds of violent news on television and in newspapers can have adverse consquences. This kind of information should be restricted from being shown in the media. To what extent do you agree or disagree with this statement?",
+    "keywords": ["Adverse consequences", "Crimes", "Violent news", "Television", "Newspapers", "Restricted", "Media", "Influence", "Corruption", "Limitation", "Disagreement", "Behavior", "Incite", "Prohibited", "Young individuals", "Undesirable activities", "Violent incidents", "Detrimental effects", "Society", "Adverse influence", "Mindsets", "Content", "Broadcasted", "Published", "Uncontrolled exposure", "Impressionable minds", "Increase", "Criminal activities"]
+  },
+  {
+    "marks": 6,
+    "questionId":3,
+    "question": "Reporting of crimes and other kinds of violent news on television and in newspapers can have adverse consquences. This kind of information should be restricted from being shown in the media. To what extent do you agree or disagree with this statement?",
+    "keywords": ["Graphic depictions", "Sensationalized", "Gratuitous", "Normalization", "Desensitization"]
+  },
+  
+  {
+    "marks": 7,
+    "questionId":3,
+    "question": "Reporting of crimes and other kinds of violent news on television and in newspapers can have adverse consquences. This kind of information should be restricted from being shown in the media. To what extent do you agree or disagree with this statement?",
+    "keywords": ["Financial aid", "Poverty", "Holistic approach", "Developed nations", "Economic development", "Social welfare", "Environmental sustainability", "Capacity-building", "Technology transfer", "Governance reforms", "Structural issues", "Rich countries", "Investments", "Education", "Healthcare", "Social protection", "Entrepreneurship", "Infrastructure", "Institutions", "Inclusive growth", "Inequality", "Empowerment", "Systemic barriers", "Human capital", "Institutional reform", "Social justice", "Access to education", "Access to healthcare", "Economic empowerment", "Human rights", "Environmental protection", "Development agenda", "Sustainable development", "Social inclusion", "Resilience-building", "Collaboration", "Policies"]
+  },
+  {
+    "marks": 8,
+    "questionId":3,
+    "question": "Reporting of crimes and other kinds of violent news on television and in newspapers can have adverse consquences. This kind of information should be restricted from being shown in the media. To what extent do you agree or disagree with this statement?",
+    "keywords": ["Financial aid", "Poverty eradication", "Comprehensive approach", "Structural inequalities", "Inclusive growth", "Social justice", "Environmental sustainability", "Human rights promotion", "Systemic barriers"]
+  },
+  {
+    "marks": 9,
+    "questionId":3,
+    "question": "Reporting of crimes and other kinds of violent news on television and in newspapers can have adverse consquences. This kind of information should be restricted from being shown in the media. To what extent do you agree or disagree with this statement?",
+    "keywords": ["Financial aid", "Poverty eradication", "Comprehensive approach", "Structural inequalities", "Inclusive growth", "Social justice", "Environmental sustainability", "Human rights promotion", "Systemic barriers", "Integrated solutions", "Economic development", "Social equity", "Environmental stewardship", "Capacity-building", "Institutional reform", "Sustainable resource management", "Entrepreneurship promotion", "Infrastructure improvement", "Governance mechanisms", "Equitable development", "Marginalized communities empowerment", "Human capital investment", "Technology transfer", "Climate change mitigation", "Multifaceted approach", "Social cohesion", "Resilience-building", "Vulnerable communities", "Reduced vulnerability", "Natural resource safeguarding"]
+  },
+  {
+    "marks": 10,
+    "questionId":3,
+    "question": "Reporting of crimes and other kinds of violent news on television and in newspapers can have adverse consquences. This kind of information should be restricted from being shown in the media. To what extent do you agree or disagree with this statement?",
+    "keywords": ["Financial aid", "Poverty alleviation", "Comprehensive development strategies", "Systemic inequalities", "Sustainable livelihoods", "Empowerment of marginalized communities", "Inclusive growth", "Gender equality promotion", "Environmental sustainability", "Root causes of poverty", "Investments in education", "Healthcare provision", "Social protection", "Long-term development", "Resilience-building", "Economic diversification", "Governance strengthening", "Access to essential services", "Inclusive development", "Reduction of inequality", "Self-sufficiency empowerment", "Systemic barriers", "Human capital investment", "Infrastructure improvement", "Institutional reform", "Holistic approach", "Social cohesion promotion", "Systemic injustices", "Human rights promotion", "Climate change mitigation", "Environmental conservation", "Equitable development", "Reduced vulnerability", "Sustainable future"]
+  },
+
+  {
+    "marks": 1,
+    "questionId":4,
+    "question": "Many people think modern communication technology is having some negative effects on social relationships. Do you agree or disagree?",
+    "keywords": ["Modern communication technology", "Negative effects", "Social relationships", "Disagreement"]
+  },
+  {
+    "marks": 2,
+    "questionId":4,
+    "question": "Many people think modern communication technology is having some negative effects on social relationships. Do you agree or disagree?",
+    "keywords": ["Modern communication technology", "Negative effects", "Social relationships", "Disagreement", "Antisocial", "Loneliness", "Isolation", "Criticism", "Unconnected", "Distant"]
+  },
+  {
+    "marks": 3,
+    "questionId":4,
+    "question": "Many people think modern communication technology is having some negative effects on social relationships. Do you agree or disagree?",
+    "keywords": ["Modern communication technology", "Negative effects", "Social relationships", "Disagreement", "Antisocial", "Loneliness", "Isolation", "Criticism"]
+  },
+  {
+    "marks": 4,
+    "questionId":4,
+    "question": "Many people think modern communication technology is having some negative effects on social relationships. Do you agree or disagree?",
+    "keywords": ["Adverse effects", "Increased isolation", "Decreased face-to-face interaction", "Reservations", "Less communicative", "More distant", "Negative impact", "Interpersonal challenges", "Carefully monitored", "Exacerbating issues"]
+  },
+  {
+    "marks": 5,
+    "questionId":4,
+    "question": "Many people think modern communication technology is having some negative effects on social relationships. Do you agree or disagree?",
+    "keywords": ["Significant impact", "Feelings of isolation", "Disconnection", "Skeptical", "Erode face-to-face communication", "Weaken interpersonal bonds", "Challenges to authentic social interactions", "Wary", "Potential disruptions", "Meaningful social relationships", "Exacerbating social issues", "Careful consideration", "Management"]
+  },
+  {
+    "marks": 6,
+    "questionId":4,
+    "question": "Many people think modern communication technology is having some negative effects on social relationships. Do you agree or disagree?",
+    "keywords": ["Considerable impact", "Increased isolation", "Diminished interpersonal connections", "Harbor reservations", "Pervasive influence", "Engender antisocial tendencies", "Scrutiny", "Cognizant of challenges", "Prevalent concern", "Approach with caution", "Disrupt our social dynamics", "Barrier to authentic human connection", "Exacerbates existing social issues", "Warrants careful consideration", "Management"]
+  },
+  {
+    "marks": 7,
+    "questionId":4,
+    "question": "Many people think modern communication technology is having some negative effects on social relationships. Do you agree or disagree?",
+    "keywords": ["Significant implications", "Increased feelings of isolation", "Detachment", "Reservations", "Pervasive influence", "Foster antisocial behavior", "Scrutinized", "Challenges posed by technology", "Prevailing concern", "Approach with caution", "Disrupt our social fabric", "Barrier to genuine human connection", "Nuanced approach", "Careful management"]
+  },
+  {
+    "marks": 8,
+    "questionId":4,
+    "question": "Many people think modern communication technology is having some negative effects on social relationships. Do you agree or disagree?",
+    "keywords": ["Profound implications", "Heightened feelings of isolation", "Disconnection", "Reservations", "Pervasive influence", "Cultivate antisocial tendencies", "Critcized", "Complexities posed by technology", "Widespread apprehension", "Approach with caution", "Disrupt our social dynamics", "Barrier to authentic human connection", "Nuanced approach", "Thoughtful regulation"]
+  },
+  {
+    "marks": 9,
+    "questionId":4,
+    "question": "Many people think modern communication technology is having some negative effects on social relationships. Do you agree or disagree?",
+    "keywords": ["Exacerbating feelings", "Detachment", "Core principles of friendship", "Reservations", "Pervasive influence", "Cultivate antisocial behavior", "Frequently criticized", "Intricate challenges", "Widespread recognition", "Circumspection", "Erects barriers", "Balanced approach", "Prudent regulation"]
+  },
+  {
+    "marks": 10,
+    "questionId":4,
+    "question": "Many people think modern communication technology is having some negative effects on social relationships. Do you agree or disagree?",
+    "keywords": ["Exacerbating feelings", "Detachment", "Core principles of friendship", "Reservations", "Pervasive influence", "Cultivate antisocial behavior", "Frequently criticized", "Intricate challenges", "Widespread recognition", "Circumspection", "Erects barriers", "Balanced approach", "Prudent regulation", "Profound implications", "Underlining the need"]
+  },
+  {
+    "marks": 1,
+    "questionId":5,
+    "question": "Some people say free time activities for children should be organized by parents. Others say that children should be free to choose what they do in their free time. Discuss both views and give your opinion.",
+    "keywords": ["Let kids choose", "Organized by parents", "Free time activities", "Discuss both views", "Give your opinion"]
+  },
+  {
+    "marks": 2,
+    "questionId":5,
+    "question": "Some people say free time activities for children should be organized by parents. Others say that children should be free to choose what they do in their free time. Discuss both views and give your opinion.",
+    "keywords": ["Let kids choose", "Organized by parents", "Free time activities", "Discuss both views", "Give your opinion", "Negative effects", "Social relationships", "Agree or disagree"]
+  },
+  {
+    "marks": 3,
+    "questionId":5,
+    "question": "Some people say free time activities for children should be organized by parents. Others say that children should be free to choose what they do in their free time. Discuss both views and give your opinion.",
+    "keywords": ["Parental control", "Children's autonomy", "Free time activities", "Debate", "Perspective", "Negative effects", "Social relationships", "Agree or disagree", "Impact", "Technological advancements"]
+  },
+  {
+    "marks": 4,
+    "questionId":5,
+    "question": "Some people say free time activities for children should be organized by parents. Others say that children should be free to choose what they do in their free time. Discuss both views and give your opinion.",
+    "keywords": ["Parental control", "Children's autonomy", "Free time activities", "Debate", "Perspective", "Negative effects", "Social relationships", "Agree or disagree", "Impact", "Technological advancements", "Contention", "Guidance", "Independence", "Discussion"]
+  },
+  {
+    "marks": 5,
+    "questionId":5,
+    "question": "Some people say free time activities for children should be organized by parents. Others say that children should be free to choose what they do in their free time. Discuss both views and give your opinion.",
+    "keywords": ["Parental control", "Children's autonomy", "Free time activities", "Debate", "Perspective", "Negative effects", "Social relationships", "Agree or disagree", "Impact", "Technological advancements", "Contention", "Guidance", "Independence", "Discussion", "Autonomy", "Structure", "Leisure time", "Exercise", "Freedom", "Decision-making"]
+  },
+  {
+    "marks": 6,
+    "questionId":5,
+    "question": "Some people say free time activities for children should be organized by parents. Others say that children should be free to choose what they do in their free time. Discuss both views and give your opinion.",
+    "keywords": ["Parental control", "Children's autonomy", "Free time activities", "Debate", "Perspective", "Negative effects", "Social relationships", "Agree or disagree", "Impact", "Technological advancements", "Contention", "Guidance", "Independence", "Discussion", "Autonomy", "Structure", "Leisure time", "Exercise", "Freedom", "Decision-making", "Empowerment", "Agency"]
+  },
+  {
+    "marks": 7,
+    "questionId":5,
+    "question": "Some people say free time activities for children should be organized by parents. Others say that children should be free to choose what they do in their free time. Discuss both views and give your opinion.",
+    "keywords": ["Parental control", "Children's autonomy", "Free time activities", "Debate", "Perspective", "Negative effects", "Social relationships", "Agree or disagree", "Impact", "Technological advancements", "Contention", "Guidance", "Independence", "Discussion", "Autonomy", "Structure", "Leisure time", "Exercise", "Freedom", "Decision-making", "Empowerment", "Agency", "Balance", "Fostering", "Complexity", "Involvement", "Empowering"]
+  },
+  {
+    "marks": 8,
+    "questionId":5,
+    "question": "Some people say free time activities for children should be organized by parents. Others say that children should be free to choose what they do in their free time. Discuss both views and give your opinion.",
+    "keywords": ["Parental control", "Children's autonomy", "Free time activities", "Debate", "Perspective", "Negative effects", "Social relationships", "Agree or disagree", "Impact", "Technological advancements", "Contention", "Guidance", "Independence", "Discussion", "Autonomy", "Structure", "Leisure time", "Exercise", "Freedom", "Decision-making", "Empowerment", "Agency", "Balance", "Fostering", "Complexity", "Involvement", "Empowering", "Parental management"]
+  },
+  {
+    "marks": 9,
+    "questionId":5,
+    "question": "Some people say free time activities for children should be organized by parents. Others say that children should be free to choose what they do in their free time. Discuss both views and give your opinion.",
+    "keywords": ["Balance", "Guidance", "Autonomy", "Parental control", "Children's autonomy", "Free time activities", "Debate", "Perspective", "Negative effects", "Social relationships", "Agree or disagree", "Impact", "Technological advancements", "Contention", "Fostering", "Independence", "Discussion", "Structure", "Leisure time", "Empowerment", "Decision-making", "Agency", "Complexity", "Involvement", "Empowering", "Parental management"]
+  },
+  {
+    "marks": 10,
+    "questionId":5,
+    "question": "Some people say free time activities for children should be organized by parents. Others say that children should be free to choose what they do in their free time. Discuss both views and give your opinion.",
+    "keywords": ["Balance", "Guidance", "Autonomy", "Parental control", "Children's autonomy", "Free time activities", "Debate", "Perspective", "Negative effects", "Social relationships", "Agree or disagree", "Impact", "Technological advancements", "Contention", "Fostering", "Independence", "Discussion", "Structure", "Leisure time", "Empowerment", "Decision-making", "Agency", "Complexity", "Involvement", "Empowering", "Parental management", "Modern communication technology"]
+  },
+  {
+    "marks": 1,
+    "questionId":6,
+    "question": "In some countries young people are encouraged to work or travel for a year between finishing high school and starting university studies. Discuss the advantages and disadvantages for young people who decide to do this.",
+    "keywords": ["Work", "Travel", "High school", "University", "Advantages", "Disadvantages", "Young people", "Studies", "Future", "Time management", "Learning", "Education", "Decision-making"]
+  },
+  {
+    "marks": 2,
+    "questionId":6,
+    "question": "In some countries young people are encouraged to work or travel for a year between finishing high school and starting university studies. Discuss the advantages and disadvantages for young people who decide to do this.",
+    "keywords": ["Work", "Travel", "High school", "University", "Advantages", "Disadvantages", "Young people", "Education", "Study", "Decision-making", "Future", "Experience", "Personal growth"]
+  },
+  {
+    "marks": 3,
+    "questionId":6,
+    "question": "Taking a gap year between high school and university can provide valuable experiences and opportunities for personal growth. Discuss the advantages and disadvantages for young people who decide to do this.",
+    "keywords": ["Gap year", "High school", "University", "Work", "Travel", "Personal growth", "Practical skills", "Cultural understanding", "Academic pressure", "Independence", "Employment", "Education", "Career goals", "Life skills", "Decision-making", "Volunteer work", "Challenges", "Benefits"]
+  },
+  {
+    "marks": 4,
+    "questionId":6,
+    "question": "In some countries young people are encouraged to work or travel for a year between finishing high school and starting university studies. Discuss the advantages and disadvantages for young people who decide to do this.",
+    "keywords": ["Gap year", "High school", "University", "Work", "Travel", "Personal growth", "Cultural enrichment", "Skill development", "Resilience", "Adaptability", "Global awareness", "Academic break", "Introspection", "Independence", "Self-reliance", "Employability", "Educational success", "Purposeful endeavors", "Challenges", "Advantages", "Disadvantages"]
+  },
+  {
+    "marks": 5,
+    "questionId":6,
+    "question": "In some countries young people are encouraged to work or travel for a year between finishing high school and starting university studies. Discuss the advantages and disadvantages for young people who decide to do this.",
+    "keywords": ["Gap year", "High school", "University", "Work", "Travel", "Personal development", "Cultural enrichment", "Career readiness", "Self-assured", "Global consciousness", "Practical skills", "Resilience", "Adaptability", "Introspection", "Independence", "Employability", "Academic preparedness", "Passions", "Interests", "Advantages", "Disadvantages"]
+  },
+  {
+    "marks": 6,
+    "questionId":6,
+    "question": "In some countries young people are encouraged to work or travel for a year between finishing high school and starting university studies. Discuss the advantages and disadvantages for young people who decide to do this.",
+    "keywords": ["Gap year", "High school", "University", "Work", "Travel", "Personal development", "Resilience", "Adaptability", "Academic pressures", "Renewed vigor", "Employers", "Universities", "Internships", "Volunteer work", "Interpersonal skills", "Cultural competencies", "Problem-solving abilities", "Career prospects", "Informed decisions", "Advantages", "Disadvantages"]
+  },
+  {
+    "marks": 7,
+    "questionId":6,
+    "question": "In some countries young people are encouraged to work or travel for a year between finishing high school and starting university studies. Discuss the advantages and disadvantages for young people who decide to do this.",
+    "keywords": ["Gap year", "High school", "University studies", "Work", "Travel", "Personal growth", "Skill development", "Adaptability", "Empathy", "Academic pressures", "Self-discovery", "Resilience", "Life skills", "Employers", "Universities", "Competitiveness", "Interpersonal connections", "Cultural awareness", "Problem-solving abilities", "Fulfilling trajectories", "Values", "Aspirations"]
+  },
+  {
+    "marks": 8,
+    "questionId":6,
+    "question": "In some countries young people are encouraged to work or travel for a year between finishing high school and starting university studies. Discuss the advantages and disadvantages for young people who decide to do this.",
+    "keywords": ["Gap year", "High school", "University studies", "Work", "Travel", "Self-discovery", "Personal development", "Experiences", "Purpose", "Resilience", "Perspective", "Cultural immersion", "Adaptability", "Empathy", "Global interconnectedness", "Introspection", "Goal setting", "Passions", "Skill development", "Employability", "Insights", "Internships", "Service projects", "Cultural exchanges", "Interpersonal relationships", "Cross-cultural competencies", "Informed decisions", "Fulfillment", "Lifelong learning", "Contributions to society"]
+  },
+  {
+    "marks": 9,
+    "questionId":6,
+    "question": "In some countries young people are encouraged to work or travel for a year between finishing high school and starting university studies. Discuss the advantages and disadvantages for young people who decide to do this.",
+    "keywords": ["Gap year", "High school", "University studies", "Work", "Travel", "Self-discovery", "Exploration", "Growth", "Purpose", "Resilience", "Global mindset", "Reflection", "Goal setting", "Passions", "Skill development", "Employers", "Universities", "Leadership", "Independence", "Community service", "International travel", "Interpersonal connections", "Cross-cultural competencies", "Agency", "Fulfillment", "Personal growth", "Professional readiness", "Well-being"]
+  },
+  {
+    "marks": 10,
+    "questionId":6,
+    "question": "In some countries young people are encouraged to work or travel for a year between finishing high school and starting university studies. Discuss the advantages and disadvantages for young people who decide to do this.",
+    "keywords": ["Gap year", "High school", "University studies", "Personal growth", "Exploration", "Self-discovery", "Work", "Travel", "Volunteering", "Skills", "Perspectives", "Adaptability", "Empathy", "Global mindset", "Reflection", "Goal setting", "Passions", "Interests", "Academic", "Professional development", "Employers", "Universities", "Initiative", "Resilience", "Responsibility", "Citizenship", "Leadership", "Character development", "Readiness"]
+  },
+  {
+    "marks": 1,
+    "questionId":7,
+    "question": "The advantages of the spread of English as a global language will continue to outweigh its disadvantages. To what extent do you agree or disagree?",
+    "keywords": ["English", "Global language", "Advantages", "Disadvantages", "Spread", "World", "Communication", "Cultural exchange", "Unity", "Opportunities", "Challenges", "Linguistic diversity", "Education", "Employment", "Economic growth"]
+  },
+  {
+    "marks": 2,
+    "questionId":7,
+    "question": "The advantages of the spread of English as a global language will continue to outweigh its disadvantages. To what extent do you agree or disagree?",
+    "keywords": ["English", "Global language", "Advantages", "Disadvantages", "Spread", "World", "Communication", "Cultural exchange", "Unity", "Opportunities", "Challenges", "Linguistic diversity", "Education", "Employment", "Economic growth", "Positive", "Beneficial"]
+  },
+  {
+    "marks": 3,
+    "questionId":7,
+    "question": "The advantages of the spread of English as a global language will continue to outweigh its disadvantages. To what extent do you agree or disagree?",
+    "keywords": ["English", "Global language", "Advantages", "Disadvantages", "Spread", "Communication", "Cultural exchange", "Economic opportunities", "Employability", "Unity", "International relations", "Education", "Media", "Entertainment", "Internet", "Empowerment", "Challenges", "Linguistic diversity", "Minority languages", "Beneficial", "Pros", "Cons"]
+  },
+  {
+    "marks": 4,
+    "questionId":7,
+    "question": "The advantages of the spread of English as a global language will continue to outweigh its disadvantages. To what extent do you agree or disagree?",
+    "keywords": ["English", "Global proliferation", "Advantages", "Drawbacks", "Communication", "Global interconnectedness", "Linguistic hegemony", "Linguistic diversity", "Proficiency", "Education", "Employment", "Socio-economic mobility", "Academia", "Business", "Diplomacy", "Cultural exchange", "Resources", "Access", "Earning potential", "Inequalities", "Marginalization", "Equitable access", "Diplomacy", "Trade", "Collaboration", "Challenges", "Cultural identity", "Opportunities"]
+  },
+  {
+    "marks": 5,
+    "questionId":7,
+    "question": "The advantages of the spread of English as a global language will continue to outweigh its disadvantages. To what extent do you agree or disagree?",
+    "keywords": ["Expansion", "English", "Lingua franca", "Advantages", "Challenges", "Proficiency", "Cross-cultural communication", "International cooperation", "Economic integration", "Academia", "Business", "Technology", "Global citizenship", "Resources", "Employability", "Career prospects", "Linguistic diversity", "Cultural heritage", "Indigenous languages", "International diplomacy", "Global peace", "Multilingualism", "Cultural exchange", "Inclusive language policies"]
+  },
+  {
+    "marks": 6,
+    "questionId":7,
+    "question": "The advantages of the spread of English as a global language will continue to outweigh its disadvantages. To what extent do you agree or disagree?",
+    "keywords": ["Proliferation", "English", "Global language", "Advantages", "Progress", "Proficiency", "Cross-border communication", "Trade", "Collaboration", "Ubiquity", "Business", "Science", "Academia", "Individual mobility", "Cultural exchange", "Economic benefits", "Lingua franca", "Inequalities", "Marginalization", "Linguistic imperialism", "Privilege", "Power", "Inclusive language policies", "Linguistic diversity", "Multilingualism", "Cultural homogenization", "Equity", "Inclusion"]
+  },
+  {
+    "marks": 7,
+    "questionId":7,
+    "question": "The advantages of the spread of English as a global language will continue to outweigh its disadvantages. To what extent do you agree or disagree?",
+    "keywords": ["Ascendancy", "English", "Global language", "Advantages", "Challenges", "Proficiency", "International communication", "Cultural exchange", "Economic integration", "Academia", "Commerce", "Diplomacy", "Access to information", "Cultural diversity", "Linguistic diversity", "Inequalities", "Marginalization", "Cultural identities", "Multilingualism", "Cross-cultural competence", "Social mobility", "Global citizenship", "Inclusive language policies", "Linguistic rights", "Social justice"]
+  },
+  {
+    "marks": 8,
+    "questionId":7,
+    "question": "The advantages of the spread of English as a global language will continue to outweigh its disadvantages. To what extent do you agree or disagree?",
+    "keywords": ["Global diffusion", "English", "Lingua franca", "Communication", "Collaboration", "Connectivity", "Opportunities", "Global economy", "Science and technology", "Entertainment", "Diplomacy", "Social mobility", "Cultural diversity", "Linguistic diversity", "Linguistic inequalities", "Minority languages", "Power structures", "21st-century skill", "Multilingualism", "Language policies", "Linguistic justice", "Inclusivity", "Cultural homogenization"]
+  },
+  {
+    "marks": 9,
+    "questionId":7,
+    "question": "The advantages of the spread of English as a global language will continue to outweigh its disadvantages. To what extent do you agree or disagree?",
+    "keywords": ["Global ascendancy", "English", "Lingua franca", "Communication", "Cooperation", "Collaboration", "Education", "Commerce", "Technology", "Cultural diversity", "Linguistic diversity", "Linguistic inequalities", "Minority languages", "Power structures", "21st-century skill", "Language policies", "Linguistic justice", "Inclusivity", "Cultural imperialism", "Erosion of linguistic diversity"]
+  },
+  {
+    "marks": 10,
+    "questionId":7,
+    "question": "The advantages of the spread of English as a global language will continue to outweigh its disadvantages. To what extent do you agree or disagree?",
+    "keywords": ["Global proliferation", "English", "Lingua franca", "Communication", "Collaboration", "Interactions", "Academia", "Business", "Technology", "Cultural diversity", "Linguistic diversity", "Linguistic inequalities", "Minority languages", "Power structures", "21st-century skill", "Language policies", "Inclusivity", "Cultural homogenization", "Erosion of linguistic diversity"]
+  },
+  {
+    "marks": 1,
+    "questionId":8,
+    "question": "Write about the following topic. To meet the growing need for food to support an increasing population, a country should make use of edible insects as a food source. However, some people believe that insects are not only unhealthy but harvesting them will also negatively affect nature. What are the benefits and drawbacks of eating insects? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Edible insects", "Food source", "Population", "Health concerns", "Environmental impact"]
+  },
+  {
+    "marks": 2,
+    "questionId":8,
+    "question": "Write about the following topic. To meet the growing need for food to support an increasing population, a country should make use of edible insects as a food source. However, some people believe that insects are not only unhealthy but harvesting them will also negatively affect nature. What are the benefits and drawbacks of eating insects? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Edible insects", "Food source", "Population", "Health concerns", "Environmental impact", "Harvesting", "Negative effects"]
+  },
+  {
+    "marks": 3,
+    "questionId":8,
+    "question": "Write about the following topic. To meet the growing need for food to support an increasing population, a country should make use of edible insects as a food source. However, some people believe that insects are not only unhealthy but harvesting them will also negatively affect nature. What are the benefits and drawbacks of eating insects? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Edible insects", "Food scarcity", "Sustainability", "Protein", "Nutrition", "Cultural acceptance", "Food safety", "Regulation", "Environmental impact"]
+  },
+  {
+    "marks": 4,
+    "questionId":8,
+    "question": "Write about the following topic. To meet the growing need for food to support an increasing population, a country should make use of edible insects as a food source. However, some people believe that insects are not only unhealthy but harvesting them will also negatively affect nature. What are the benefits and drawbacks of eating insects? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Edible insects", "Food demand", "Environmental degradation", "Nutrient-rich", "Sustainability", "Food insecurity", "Cultural acceptance", "Food safety regulations", "Sustainable farming practices"]
+  },
+  {
+    "marks": 5,
+    "questionId":8,
+    "question": "Write about the following topic. To meet the growing need for food to support an increasing population, a country should make use of edible insects as a food source. However, some people believe that insects are not only unhealthy but harvesting them will also negatively affect nature. What are the benefits and drawbacks of eating insects? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Edible insects", "Global food security", "Environmental sustainability", "Nutrient-rich", "Resource efficiency", "Malnutrition alleviation", "Cultural acceptance", "Food safety concerns", "Regulation", "Sustainable farming practices"]
+  },
+  {
+    "marks": 6,
+    "questionId":8,
+    "question": "Write about the following topic. To meet the growing need for food to support an increasing population, a country should make use of edible insects as a food source. However, some people believe that insects are not only unhealthy but harvesting them will also negatively affect nature. What are the benefits and drawbacks of eating insects? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Edible insects", "Food security", "Environmental sustainability", "Protein source", "Nutritional value", "Resource efficiency", "Malnutrition alleviation", "Cultural acceptance", "Food safety concerns", "Regulation", "Insect farming technologies", "Livestock production", "Environmental conservation"]
+  },
+  {
+    "marks": 7,
+    "questionId":8,
+    "question": "Write about the following topic. To meet the growing need for food to support an increasing population, a country should make use of edible insects as a food source. However, some people believe that insects are not only unhealthy but harvesting them will also negatively affect nature. What are the benefits and drawbacks of eating insects? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Edible insects", "Sustainable food source", "Food security", "Environmental sustainability", "Protein-rich", "Nutritional value", "Resource efficiency", "Malnutrition alleviation", "Cultural acceptance", "Regulatory barriers", "Consumer acceptance", "Communication campaigns", "Policy support", "Natural resources", "Sustainable development"]
+  },
+  {
+    "marks": 8,
+    "questionId":8,
+    "question": "Write about the following topic. To meet the growing need for food to support an increasing population, a country should make use of edible insects as a food source. However, some people believe that insects are not only unhealthy but harvesting them will also negatively affect nature. What are the benefits and drawbacks of eating insects? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Edible insects", "Pragmatic response", "Food scarcity", "Environmental degradation", "Protein-rich", "Nutritionally dense", "Resource efficiency", "Malnutrition alleviation", "Cultural acceptance", "Regulatory barriers", "Public awareness campaigns", "Investment in research", "Food security", "Biodiversity conservation"]
+  },
+  {
+    "marks": 9,
+    "questionId":8,
+    "question": "Write about the following topic. To meet the growing need for food to support an increasing population, a country should make use of edible insects as a food source. However, some people believe that insects are not only unhealthy but harvesting them will also negatively affect nature. What are the benefits and drawbacks of eating insects? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Edible insects", "Practical solution", "Global challenges", "Environmental impact", "Nutritious protein source", "Sustainability", "Resource efficiency", "Malnutrition alleviation", "Cultural significance", "Regulatory challenges", "Awareness", "Supportive policies", "Research and development", "Food security", "Biodiversity promotion"]
+  },
+  {
+    "marks": 10,
+    "questionId":8,
+    "question": "Write about the following topic. To meet the growing need for food to support an increasing population, a country should make use of edible insects as a food source. However, some people believe that insects are not only unhealthy but harvesting them will also negatively affect nature. What are the benefits and drawbacks of eating insects? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Edible insects", "Sustainable food source", "Global food security", "Environmental sustainability", "Nutritious protein source", "Resource efficiency", "Malnutrition alleviation", "Cultural significance", "Regulatory challenges", "Awareness", "Investment in research and development", "Policy frameworks", "Public education", "Food security enhancement", "Biodiversity conservation", "Environmental impact mitigation"]
+  },
+  {
+    "marks": 1,
+    "questionId":9,
+    "question": "Write about the following topic. Although there are a lot of translation software available, learning a language could still be advantageous. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Translation software", "Learning languages", "Advantages", "Communication", "Understanding", "Human interaction", "Emotions", "Cultural nuances", "Language proficiency"]
+  },
+  {
+    "marks": 2,
+    "questionId":9,
+    "question": "Write about the following topic. Although there are a lot of translation software available, learning a language could still be advantageous. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Translation software", "Learning languages", "Advantages", "Communication", "Understanding", "Human interaction", "Emotions", "Cultural nuances", "Language proficiency", "Limitations"]
+  },
+  {
+    "marks": 3,
+    "questionId":9,
+    "question": "Write about the following topic. Although there are a lot of translation software available, learning a language could still be advantageous. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Translation software", "Learning languages", "Advantages", "Human connection", "Cultural understanding", "Communication intricacies", "Authenticity", "Language proficiency", "Genuine connections", "Cultural empathy"]
+  },
+  {
+    "marks": 4,
+    "questionId":9,
+    "question": "Write about the following topic. Although there are a lot of translation software available, learning a language could still be advantageous. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Translation software", "Learning languages", "Advantages", "Cultural immersion", "Language intricacies", "Cognitive abilities", "Fluency", "Holistic approach", "Cultural empathy", "Professional interactions"]
+  },
+  {
+    "marks": 5,
+    "questionId":9,
+    "question": "Write about the following topic. Although there are a lot of translation software available, learning a language could still be advantageous. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Translation software", "Learning languages", "Cultural understanding", "Nuanced communication", "Cross-cultural empathy", "Technological advancements", "Interpersonal relationships", "Cognitive growth", "Cultural nuances", "Authentic interaction"]
+  },
+  {
+    "marks": 6,
+    "questionId":9,
+    "question": "Write about the following topic. Although there are a lot of translation software available, learning a language could still be advantageous. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Translation software", "Language learning", "Cultural fluency", "Empathy", "Cross-cultural communication", "Cognitive flexibility", "Personal interactions", "Professional interactions", "Global citizenship", "Inclusivity", "Authentic expression"]
+  },
+  {
+    "marks": 7,
+    "questionId":9,
+    "question": "Write about the following topic. Although there are a lot of translation software available, learning a language could still be advantageous. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Translation software", "Language learning", "Cross-cultural understanding", "Linguistic diversity", "Cultural nuances", "Cognitive agility", "Interpersonal relationships", "Global languages", "Inclusive communication", "Intercultural competence", "Authentic communication"]
+  },
+  {
+    "marks": 8,
+    "questionId":9,
+    "question": "Write about the following topic. Although there are a lot of translation software available, learning a language could still be advantageous. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Translation software", "Language learning", "Intercultural understanding", "Nuanced communication", "Cultural fluency", "Cognitive flexibility", "Global citizenship", "Cross-cultural dialogue", "Authentic expression", "Cultural landscapes", "Critical thinking", "Personal success"]
+  },
+  {
+    "marks": 9,
+    "questionId":9,
+    "question": "Write about the following topic. Although there are a lot of translation software available, learning a language could still be advantageous. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Advancements in technology", "Functional aspects", "Personal and professional interactions", "Cognitive agility", "Mutual respect", "Belonging", "Diverse communities", "Personal and professional growth", "Innovation", "Shaping perspectives"]
+  },
+  {
+    "marks": 10,
+    "questionId":9,
+    "question": "Write about the following topic. Although there are a lot of translation software available, learning a language could still be advantageous. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Harmonious world", "Authentic communication", "Global citizenship", "Cognitive flexibility", "Innovation", "Positive social change", "Global community", "Grace and empathy", "Attitudes and perspectives", "Compassionate world"]
+  },
+  {
+    "marks": 1,
+    "questionId":10,
+    "question": "Write about the following topic. Some people prefer to spend their lives doing the same things and avoiding change. Others, however, think that change is always a good thing. Discuss both these views and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Preference for stability", "Resistance to change", "Value of routine", "Preference for novelty", "Embracing change", "Benefits of change", "Adaptability", "Personal growth", "Comfort zone", "Variety in life"]
+  },
+  {
+    "marks": 2,
+    "questionId":10,
+    "question": "Write about the following topic. Some people prefer to spend their lives doing the same things and avoiding change. Others, however, think that change is always a good thing. Discuss both these views and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Preference for stability", "Resistance to change", "Value of routine", "Preference for novelty", "Embracing change", "Benefits of change", "Adaptability", "Personal growth", "Comfort zone", "Variety in life", "Attitude towards change"]
+  },
+  {
+    "marks": 3,
+    "questionId":10,
+    "question": "Write about the following topic. Some people prefer to spend their lives doing the same things and avoiding change. Others, however, think that change is always a good thing. Discuss both these views and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Preference for stability", "Embracing change", "Routine vs novelty", "Comfort zone", "Personal growth", "Adaptability", "Risk aversion", "Opportunities for development", "Attitude towards change", "Value of consistency", "Desire for variety"]
+  },
+  {
+    "marks": 4,
+    "questionId":10,
+    "question": "Write about the following topic. Some people prefer to spend their lives doing the same things and avoiding change. Others, however, think that change is always a good thing. Discuss both these views and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Preference for stability", "Embracing change", "Routine vs novelty", "Comfort zone", "Personal growth", "Adaptability", "Risk aversion", "Opportunities for development", "Attitude towards change", "Value of consistency", "Desire for variety", "Innovation and improvement", "Catalyst for progress", "Adapting to circumstances", "Self-discovery"]
+  },
+  {
+    "marks": 5,
+    "questionId":10,
+    "question": "Write about the following topic. Some people prefer to spend their lives doing the same things and avoiding change. Others, however, think that change is always a good thing. Discuss both these views and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Preference for stability", "Advocating for change", "Familiarity vs innovation", "Comfort zone", "Personal growth", "Opportunities for development", "Consistency vs creativity", "Risk aversion", "Embracing new experiences", "Renewal and transformation", "Evolution and progress", "Security of routine", "Exploring potential", "Hesitancy towards change", "Positive outlook on change"]
+  },
+  {
+    "marks": 6,
+    "questionId":10,
+    "question": "Write about the following topic. Some people prefer to spend their lives doing the same things and avoiding change. Others, however, think that change is always a good thing. Discuss both these views and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Preference for stability", "Embracing change", "Familiarity vs novelty", "Comfort zone", "Personal growth", "Innovation and progress", "Routine vs adventure", "Security vs risk", "Adaptation and resilience", "Tradition vs evolution", "Contentment vs exploration", "Opportunities for growth", "Dynamic nature of change", "Positive outlook on change", "Adapting to challenges"]
+  },
+  {
+    "marks": 7,
+    "questionId":10,
+    "question": "Write about the following topic. Some people prefer to spend their lives doing the same things and avoiding change. Others, however, think that change is always a good thing. Discuss both these views and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Preference for stability", "Embracing change", "Comfort in routine", "Innovation and progress", "Security vs adaptability", "Resilience and adaptability", "Familiarity vs novelty", "Opportunities for growth", "Personal transformation", "Risk-taking", "Exploration and learning", "Catalyst for advancement", "Value of routine", "Positive outlook on change", "Self-discovery"]
+  },
+  {
+    "marks": 8,
+    "questionId":10,
+    "question": "Write about the following topic. Some people prefer to spend their lives doing the same things and avoiding change. Others, however, think that change is always a good thing. Discuss both these views and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Preference for stability", "Embracing change", "Comfort in routine", "Progress and innovation", "Security vs adaptability", "Resilience and adaptability", "Familiarity vs novelty", "Opportunities for growth", "Personal evolution", "Societal development", "Creativity and adaptation", "Learning and self-improvement", "Transformative power of change", "Contentment vs fulfillment"]
+  },
+  {
+    "marks": 9,
+    "questionId":10,
+    "question": "Write about the following topic. Some people prefer to spend their lives doing the same things and avoiding change. Others, however, think that change is always a good thing. Discuss both these views and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Comfort in stability", "Embracing opportunities for growth", "Routine vs adaptability", "Resilience and empowerment", "Preference for familiarity", "Transformation and progress", "Creativity and self-discovery", "Security vs evolution", "Personal and professional development", "Thriving in dynamic environments", "Clinging to the familiar", "Catalyst for progress", "Transformative power of change", "Adventure and growth"]
+  },
+  {
+    "marks": 10,
+    "questionId":10,
+    "question": "Write about the following topic. Some people prefer to spend their lives doing the same things and avoiding change. Others, however, think that change is always a good thing. Discuss both these views and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Security in stability", "Embracing change for progress", "Routine vs adaptation", "Creativity and resilience", "Preference for familiarity", "Evolution and growth", "Personal and professional fulfillment", "Navigating life's complexities", "Seizing opportunities for reinvention", "Transformation and renewal", "Propelling towards potential", "Crucible of change", "Horizons of growth"]
+  },
+  {
+    "marks": 1,
+    "questionId":11,
+    "question": "Write about the following topic. There are several factors that motivate people to stay in the workforce, and money is the most important reason/factor. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Motivation in workforce", "Importance of money", "Factors for staying in job", "Workforce retention", "Financial motivation"]
+  },
+  {
+    "marks": 2,
+    "questionId":11,
+    "question": "Write about the following topic. There are several factors that motivate people to stay in the workforce, and money is the most important reason/factor. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Workforce retention", "Financial motivation", "Importance of money in work", "Factors for staying in job", "Employee motivation"]
+  },
+  {
+    "marks": 3,
+    "questionId":11,
+    "question": "Write about the following topic. There are several factors that motivate people to stay in the workforce, and money is the most important reason/factor. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Job satisfaction", "Career growth", "Work-life balance", "Workplace culture", "Recognition", "Job security", "Learning and development", "Employee retention", "Intrinsic motivation", "Professional fulfillment"]
+  },
+  {
+    "marks": 4,
+    "questionId":11,
+    "question": "Write about the following topic. There are several factors that motivate people to stay in the workforce, and money is the most important reason/factor. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Career advancement", "Job security", "Positive work environment", "Recognition", "Skill development", "Employee loyalty", "Job satisfaction", "Work-life balance", "Organizational culture", "Professional growth", "Sense of belonging", "Flexible work arrangements", "Mentorship programs", "Job autonomy", "Organizational values", "Work-life integration", "Personal development", "Job enrichment", "Empowerment", "Purpose in work", "Financial stability"]
+  },
+  {
+    "marks": 5,
+    "questionId":11,
+    "question": "Write about the following topic. There are several factors that motivate people to stay in the workforce, and money is the most important reason/factor. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Job flexibility", "Career growth opportunities", "Positive work culture", "Job meaningfulness", "Autonomy", "Supportive leadership", "Work-life balance", "Professional development opportunities", "Sense of community", "Job challenge", "Recognition", "Opportunities for advancement", "Job enrichment", "Interpersonal relationships", "Alignment with organizational values", "Sense of purpose", "Meaningful work", "Personal growth and development", "Work environment", "Job autonomy", "Opportunity to make a meaningful impact", "Organizational culture", "Alignment with personal values", "Recognition", "Appreciation", "Sense of accomplishment", "Job security", "Skill development", "Employee morale", "Long-term commitment"]
+  },
+  {
+    "marks": 7,
+    "questionId":11,
+    "question": "Write about the following topic. There are several factors that motivate people to stay in the workforce, and money is the most important reason/factor. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Job satisfaction", "Career advancement opportunities", "Work-life balance", "Job autonomy", "Recognition", "Sense of purpose", "Job challenge", "Interpersonal relationships", "Organizational culture", "Leadership support", "Skill development", "Job enrichment", "Peer recognition", "Alignment with organizational values", "Job variety", "Social connections at work", "Collaboration", "Positive work environment", "Talent retention", "Employee engagement", "Organizational success"]
+  },
+  {
+    "marks": 8,
+    "questionId":11,
+    "question": "Write about the following topic. There are several factors that motivate people to stay in the workforce, and money is the most important reason/factor. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Professional development opportunities", "Work-life balance", "Sense of belonging", "Job autonomy", "Collaborative work environment", "Personal growth", "Job enrichment", "Supportive leadership", "Employee commitment", "Organizational success", "Career advancement opportunities", "Work flexibility", "Positive workplace culture", "Meaningful work", "Clear career progression", "Supportive colleagues", "Challenging assignments", "Skill development", "Job security", "Recognition", "Alignment with organizational values", "Purpose in work", "Employee engagement", "Job satisfaction", "Effective leadership", "Opportunities for advancement"]
+  },
+  {
+    "marks": 9,
+    "questionId":11,
+    "question": "Write about the following topic. There are several factors that motivate people to stay in the workforce, and money is the most important reason/factor. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Job satisfaction", "Career growth opportunities", "Supportive work environment", "Meaningful work", "Recognition", "Personal development", "Work-life balance", "Job autonomy", "Sense of belonging", "Job enrichment", "Teamwork", "Alignment with organizational values", "Positive work culture", "Career progression", "Mentorship", "Job challenge", "Skill development", "Work flexibility", "Transparent communication", "Organizational reputation", "Job variety", "Work-life integration"]
+  },
+  {
+    "marks": 10,
+    "questionId":11,
+    "question": "Write about the following topic. There are several factors that motivate people to stay in the workforce, and money is the most important reason/factor. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Employee retention", "Job fulfillment", "Career advancement opportunities", "Organizational culture", "Meaningful work", "Autonomy", "Professional development", "Work-life balance", "Positive work environment", "Recognition", "Growth opportunities", "Workplace culture", "Skill enhancement", "Employee contributions", "Career progression", "Work flexibility", "Employee well-being", "Employee training", "Leadership development", "Values", "Diversity and inclusion", "Personal growth", "Sense of belonging", "Employee engagement", "Trust and collaboration"]
+  },
+  {
+    "marks": 1,
+    "questionId":12,
+    "question": "Write about the following topic. The most important function of music is that it helps people reduce stress. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Music", "Stress reduction", "Happiness", "Relaxation", "Studies", "Music therapy", "Stress levels", "Musical instruments", "Singing", "Distraction", "Negative thoughts", "Unwinding"]
+  },
+  {
+    "marks": 2,
+    "questionId":12,
+    "question": "Write about the following topic. The most important function of music is that it helps people reduce stress. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Music", "Stress reduction", "Happiness", "Relaxation", "Music therapy", "Coping mechanism", "Emotional well-being", "Positive impact", "Magic", "Life improvement"]
+  },
+  {
+    "marks": 3,
+    "questionId":12,
+    "question": "Write about the following topic. The most important function of music is that it helps people reduce stress. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Music", "Stress reduction", "Therapeutic effects", "Relaxation", "Coping mechanism", "Music therapy", "Emotional well-being", "Escape", "Positive impact", "Universal language"]
+  },
+  {
+    "marks": 4,
+    "questionId":12,
+    "question": "Write about the following topic. The most important function of music is that it helps people reduce stress. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Music", "Stress reduction", "Emotional modulation", "Positive emotions", "Rhythmic patterns", "Music therapy", "Neural pathways", "Social support", "Overall well-being", "Resilience", "Coping strategies", "Immersive experience", "Sanctuary"]
+  },
+  {
+    "marks": 5,
+    "questionId":12,
+    "question": "Write about the following topic. The most important function of music is that it helps people reduce stress. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Music", "Stress reduction", "Psychological", "Therapeutic effects", "Autonomic nervous system", "Positive emotions", "Empowerment", "Music therapy interventions", "Neurobiological mechanisms", "Self-care strategy", "Mindfulness", "Stress resilience", "Integrative approach"]
+  },
+  {
+    "marks": 6,
+    "questionId":12,
+    "question": "Write about the following topic. The most important function of music is that it helps people reduce stress. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Music", "Stress modulation", "Cultural boundaries", "Brain", "Therapeutic interventions", "Emotional catharsis", "Neurobiological mechanisms", "Psychosocial", "Resilience-building", "Holistic approach", "Emotional regulation", "Adaptive coping strategies", "Inner states", "External environments"]
+  },
+  {
+    "marks": 7,
+    "questionId":12,
+    "question": "Write about the following topic. The most important function of music is that it helps people reduce stress. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": ["Invaluable resource", "Rhythmic cadence", "Therapeutic contexts", "Emotional well-being", "Music therapy", "Attuned receptivity", "Paradigm shift", "Symphonic tapestry", "Transformative power", "Therapeutic potential", "Beacon of hope", "Inner tranquility", "Emotional equanimity"]
+  },
+  {
+    "marks": 8,
+    "questionId":12,
+    "question": "Write about the following topic. The most important function of music is that it helps people reduce stress. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "keywords": "Emotional resonance, Physiological responses, Therapeutic modality, Perceptual frameworks, Attunement, Holistic healing, Transcendent experiences, Therapeutic potential, Resilience, Ethical principles, Cultural competence, Self-reflection, Collaboration, Interconnectedness"
+ },
+ {
+  "marks": 9,
+  "questionId":12,
+  "question": "Write about the following topic. The most important function of music is that it helps people reduce stress. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Innate ability", "Neurobiological pathways", "Holistic wellness", "Mind-body-spirit alignment", "Transformative potential", "Self-expression", "Self-discovery", "Relational ethos", "Empathy", "Authenticity", "Cultural divides", "Solace", "Connection", "Collaborative process", "Wisdom", "Creativity", "Emotional regulation", "Curiosity", "Compassion", "Humility", "Vitality", "Transformation", "Human experience"]
+},
+{
+  "marks": 10,
+  "questionId":12,
+  "question": "Write about the following topic. The most important function of music is that it helps people reduce stress. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Unparalleled force", "Melodic strains", "Transformative power", "Holistic approach", "Symphonic resonance", "Universal language", "Connection", "Healing", "Relational ethos", "Interconnectedness", "Holistic wellness", "Emotional evocation", "Inner landscape", "Authenticity", "Compassion", "Creativity"]
+},
+{
+  "marks": 1,
+  "questionId":13,
+  "question": "Write about the following topic. Many people use written language in a less formal and more relaxed way. Why? Does this development have advantages and disadvantages? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Less formal", "More relaxed", "Advantages", "Disadvantages", "Quick", "Effortless", "Less stressful", "Friendly", "Cool", "Relatable", "Lazy"]
+},
+{
+  "marks": 2,
+  "questionId":13,
+  "question": "Write about the following topic. Many people use written language in a less formal and more relaxed way. Why? Does this development have advantages and disadvantages? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Easier", "Chill", "Faster", "Quick", "Cool", "Relatable", "Friendly", "Quicker", "Lazy", "Casual"]
+},
+{
+  "marks": 3,
+  "questionId":13,
+  "question": "Write about the following topic. Many people use written language in a less formal and more relaxed way. Why? Does this development have advantages and disadvantages? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Accessibility", "Quicker communication", "Conversational style", "Flexibility", "Camaraderie", "Inclusivity", "Spontaneity", "Clarity", "Engagement", "Cultural shift"]
+},
+{
+  "marks": 4,
+  "questionId":13,
+  "question": "Write about the following topic. Many people use written language in a less formal and more relaxed way. Why? Does this development have advantages and disadvantages? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Natural communication", "Authenticity", "Connection", "Readability", "Flexibility", "Inclusivity", "Societal trends", "Efficiency", "Creativity", "Barriers to understanding"]
+},
+{
+  "marks": 5,
+  "questionId":13,
+  "question": "Write about the following topic. Many people use written language in a less formal and more relaxed way. Why? Does this development have advantages and disadvantages? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Cultural shift", "Reader engagement", "Inclusivity", "Clarity", "Spontaneity", "Adaptability", "Experimentation", "Digital communication", "Efficiency", "Flexibility"]
+},
+{
+  "marks": 6,
+  "questionId":13,
+  "question": "Write about the following topic. Many people use written language in a less formal and more relaxed way. Why? Does this development have advantages and disadvantages? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Cultural zeitgeist", "Intimacy", "Engagement", "Empowerment", "Casualization", "Authenticity", "Innovation", "Adaptability", "Efficiency", "Digital platforms"]
+},
+{
+  "marks": 7,
+  "questionId":13,
+  "question": "Write about the following topic. Many people use written language in a less formal and more relaxed way. Why? Does this development have advantages and disadvantages? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Ubiquity", "Connection", "Inclusivity", "Empowerment", "Democratization", "Personality", "Innovation", "Adaptability", "Clarity", "Digital platforms"]
+},
+{
+  "marks": 8,
+  "questionId":13,
+  "question": "Write about the following topic. Many people use written language in a less formal and more relaxed way. Why? Does this development have advantages and disadvantages? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Prevalence", "Rapport", "Inclusivity", "Empowerment", "Democratization", "Immersive", "Innovation", "Flexibility", "Clarity", "Digital communication"]
+},
+{
+  "marks": 9,
+  "questionId":13,
+  "question": "Write about the following topic. Many people use written language in a less formal and more relaxed way. Why? Does this development have advantages and disadvantages? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Authenticity", "Empathy", "Inclusivity", "Creativity", "Democratization", "Immersive", "Innovation", "Adaptability", "Simplicity", "Digital platforms"]
+},
+{
+  "marks": 10,
+  "questionId":13,
+  "question": "Write about the following topic. Many people use written language in a less formal and more relaxed way. Why? Does this development have advantages and disadvantages? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Preference", "Rapport", "Inclusivity", "Empowerment", "Democratization", "Immersive", "Innovation", "Adaptability", "Accessibility", "Digital communication"]
+},
+{
+  "marks": 1,
+  "questionId":14,
+  "question": "Write about the following topic. In many countries large amounts of foods are wasted. Why do you think people waste food in this way? What can be done to reduce the amount of food thrown away? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Carelessness", "Laziness", "Forgetfulness", "Over-purchasing", "Dislike", "Expiration misconception", "Cooking skills", "Time constraints", "Lack of empathy", "Perceived value"]
+},
+{
+  "marks": 2,
+  "questionId":14,
+  "question": "Write about the following topic. In many countries large amounts of foods are wasted. Why do you think people waste food in this way? What can be done to reduce the amount of food thrown away? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Indifference", "Procrastination", "Negligence", "Overstocking", "Preference", "Misunderstanding of expiry dates", "Culinary proficiency", "Time management", "Societal empathy deficit", "Perceived worthlessness"]
+},
+
+{
+  "marks": 3,
+  "questionId":14,
+  "question": "Write about the following topic. In many countries large amounts of foods are wasted. Why do you think people waste food in this way? What can be done to reduce the amount of food thrown away? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Awareness", "Overestimation", "Perception", "Improper storage", "Meal planning", "Societal norms", "Economic factors", "Cultural attitudes", "Education", "Emotional factors", "Resource utilization", "Consumer behavior", "Sustainability practices", "Community initiatives"]
+ },
+ {
+  "marks": 4,
+  "questionId":14,
+  "question": "Write about the following topic. In many countries large amounts of foods are wasted. Why do you think people waste food in this way? What can be done to reduce the amount of food thrown away? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Planning", "Awareness", "Cultural norms", "Expiration dates", "Economic factors", "Packaging", "Marketing practices", "Social pressures", "Supply chains", "Infrastructure", "Education", "Community outreach", "Policies", "Incentives", "Technology", "Innovation", "Food donation", "Redistribution"]
+ },
+ {
+  "marks": 5,
+  "questionId":14,
+  "question": "Write about the following topic. In many countries large amounts of foods are wasted. Why do you think people waste food in this way? What can be done to reduce the amount of food thrown away? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Consumer behavior", "Supply chain inefficiencies", "Misunderstanding expiration dates", "Economic factors", "Marketing strategies", "Cultural attitudes", "Inefficient distribution systems", "Educational initiatives", "Public awareness campaigns", "Legislative measures", "Technological innovations", "Collaborative efforts"]
+},
+
+{
+  "marks": 6,
+  "questionId":14,
+  "question": "Write about the following topic. In many countries large amounts of foods are wasted. Why do you think people waste food in this way? What can be done to reduce the amount of food thrown away? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Structural factors", "Food purchasing patterns", "Premature discarding", "Economic incentives", "Supply chain inefficiencies", "Societal attitudes", "Educational interventions", "Policy measures", "Technological innovations", "Collaborative efforts"]
+},
+{
+  "marks": 7,
+  "questionId":14,
+  "question": "Write about the following topic. In many countries large amounts of foods are wasted. Why do you think people waste food in this way? What can be done to reduce the amount of food thrown away? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Consumer culture", "Misperceptions", "Economic factors", "Inefficiencies", "Societal norms", "Educational initiatives", "Regulatory measures", "Technological innovations", "Collective action"]
+},
+{
+  "marks": 8,
+  "questionId":14,
+  "question": "Write about the following topic. In many countries large amounts of foods are wasted. Why do you think people waste food in this way? What can be done to reduce the amount of food thrown away? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Structural inefficiencies", "Cultural attitudes", "Misperceptions", "Economic incentives", "Supply chain inefficiencies", "Societal expectations", "Educational initiatives", "Policy interventions", "Technological advancements", "Collaborative efforts"]
+},
+
+{
+  "marks": 9,
+  "questionId":14,
+  "question": "Write about the following topic. In many countries large amounts of foods are wasted. Why do you think people waste food in this way? What can be done to reduce the amount of food thrown away? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Global food system", "Socioeconomic factors", "Cultural values", "Food quality", "Supply chain inefficiencies", "Food aesthetics", "Waste reduction strategies", "Policy measures", "Technological innovations", "Collective action"]
+},
+
+{
+  "marks": 10,
+  "questionId":14,
+  "question": "Write about the following topic. In many countries large amounts of foods are wasted. Why do you think people waste food in this way? What can be done to reduce the amount of food thrown away? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Global food system", "Consumer behaviors", "Economic incentives", "Systemic inefficiencies", "Food distribution", "Food aesthetics", "Educational initiatives", "Policy interventions", "Technological innovations", "Collaborative efforts"]
+},
+
+{
+  "marks": 1,
+  "questionId":15,
+  "question": "Write about the following topic: In many countries, not enough students study science subjects. What are the causes? What will be the effect on society? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Science education", "Student attitudes", "Interest in science", "Perceived difficulty", "Lack of motivation", "Quality of teaching", "Subject preferences", "Perceived importance"]
+},
+{
+  "marks": 2,
+  "questionId":15,
+  "question": "Write about the following topic: In many countries, not enough students study science subjects. What are the causes? What will be the effect on society? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Science education", "Student attitudes", "Interest in science", "Perceived difficulty", "Lack of motivation", "Quality of teaching", "Subject preferences", "Perceived importance", "Impact on society", "Educational outcomes"]
+},
+
+{
+  "marks": 3,
+  "questionId":15,
+  "question": "Write about the following topic: In many countries, not enough students study science subjects. What are the causes? What will be the effect on society? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Interest in science", "Student motivation", "Perceived difficulty", "Relevance of science", "Understanding scientific concepts", "Self-efficacy in science", "Practical applications of science", "Quality of science education", "Subject prioritization", "Perceived importance of science", "Impact on society", "Educational outcomes"]
+},
+
+{
+  "marks": 4,
+  "questionId":15,
+  "question": "Write about the following topic: In many countries, not enough students study science subjects. What are the causes? What will be the effect on society? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Underrepresentation", "Student engagement", "Procrastination", "Struggling with scientific principles", "Lack of confidence", "Perceived relevance of science", "Resource availability", "Access to experienced teachers", "Prioritization of disciplines", "Perception of science's applicability", "Societal impact", "Educational attainment"]
+},
+
+{
+  "marks": 5,
+  "questionId":15,
+  "question": "Write about the following topic: In many countries, not enough students study science subjects. What are the causes? What will be the effect on society? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Insufficient enrollment", "Procrastination", "Disinterest in scientific concepts", "Challenges in understanding", "Teaching methodology", "Educational resources", "Perceived relevance of science", "Socioeconomic disparities", "Career aspirations", "Misconceptions about science education", "Impact on society", "Economic development"]
+},
+
+{
+  "marks": 6,
+  "questionId":15,
+  "question": "Write about the following topic: In many countries, not enough students study science subjects. What are the causes? What will be the effect on society? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Inadequate enrollment", "Procrastination", "Disinterest in science", "Challenges in comprehension", "Educational disparities", "Perceived utility of science education", "Socioeconomic influences", "Cultural attitudes towards science", "Systemic issues in education", "Impact on society", "Technological advancement"]
+},
+
+{
+  "marks": 7,
+  "questionId":15,
+  "question": "Write about the following topic: In many countries, not enough students study science subjects. What are the causes? What will be the effect on society? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Insufficient enrollment", "Personal interests and career aspirations", "Procrastination and time management", "Pedagogical approaches", "Socioeconomic disparities", "Perceptions of science education", "Cultivating a culture of scientific inquiry", "Collaborative efforts in education reform", "Impact on society", "STEM fields", "Equity and inclusivity"]
+},
+{
+  "marks": 8,
+  "questionId":15,
+  "question": "Write about the following topic: In many countries, not enough students study science subjects. What are the causes? What will be the effect on society? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Insufficient enrollment", "Personal interests and career aspirations", "Effective time management skills", "Engaging pedagogical approaches", "Socioeconomic disparities", "Students' perceptions of science education", "Inclusive learning environment", "Collaborative partnerships in education", "Investment in STEM education", "Equitable access to educational opportunities"]
+},
+{
+  "marks": 9,
+  "questionId":15,
+  "question": "Write about the following topic: In many countries, not enough students study science subjects. What are the causes? What will be the effect on society? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Multifaceted issue", "Socio-cultural factors", "Inquiry-based learning", "Curiosity and passion for discovery", "Marginalized communities", "Inclusive learning environments", "Collaborative efforts across sectors", "Teacher training and curriculum development", "STEM education ecosystem"]
+} ,
+{
+  "marks": 10,
+  "questionId":15,
+  "question": "Write about the following topic: In many countries, not enough students study science subjects. What are the causes? What will be the effect on society? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "keywords": ["Experiential learning", "Innovative pedagogical approaches", "Intrinsic motivators", "Underrepresented communities", "Sense of purpose and agency", "Diversity, equity, and inclusion", "Collaborative partnerships", "High-quality science education", "STEM education ecosystem", "Scientific and technological advancements"]
+}
+]
+
+
+
+
+
+
+
+
+  
+

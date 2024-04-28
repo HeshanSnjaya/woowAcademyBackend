@@ -1,0 +1,1038 @@
+{
+    "software": {
+        "name": "GrammarBot",
+        "version": "4.3.1",
+        "apiVersion": 1,
+        "premium": true,
+        "premiumHint": "Thanks for supporting GrammarBot!",
+        "status": ""
+    },
+    "warnings": {
+        "incompleteResults": false
+    },
+    "language": {
+        "name": "English (US)",
+        "code": "en-US",
+        "detectedLanguage": {
+            "name": "English (US)",
+            "code": "en-US"
+        }
+    },
+    "matches": [
+        {
+            "message": "Possible spelling mistake found",
+            "shortMessage": "Spelling mistake",
+            "replacements": [
+                {
+                    "value": "are"
+                },
+                {
+                    "value": "age"
+                },
+                {
+                    "value": "agree"
+                },
+                {
+                    "value": "acre"
+                },
+                {
+                    "value": "Agra"
+                },
+                {
+                    "value": "ogre"
+                },
+                {
+                    "value": "ague"
+                },
+                {
+                    "value": "AGE"
+                },
+                {
+                    "value": "AGR"
+                },
+                {
+                    "value": "ARE"
+                },
+                {
+                    "value": "GRE"
+                }
+            ],
+            "offset": 2,
+            "length": 4,
+            "context": {
+                "text": "I agre finanshal aid alon no solv povrty in po...",
+                "offset": 2,
+                "length": 4
+            },
+            "sentence": "I agre finanshal aid alon no solv povrty in por cuntry.",
+            "type": {
+                "typeName": "Other"
+            },
+            "rule": {
+                "id": "MORFOLOGIK_RULE_EN_US",
+                "description": "Possible spelling mistake",
+                "issueType": "misspelling",
+                "category": {
+                    "id": "TYPOS",
+                    "name": "Possible Typo"
+                }
+            }
+        },
+        {
+            "message": "Possible spelling mistake found",
+            "shortMessage": "Spelling mistake",
+            "replacements": [
+                {
+                    "value": "financial"
+                }
+            ],
+            "offset": 7,
+            "length": 9,
+            "context": {
+                "text": "I agre finanshal aid alon no solv povrty in por cuntry. ...",
+                "offset": 7,
+                "length": 9
+            },
+            "sentence": "I agre finanshal aid alon no solv povrty in por cuntry.",
+            "type": {
+                "typeName": "Other"
+            },
+            "rule": {
+                "id": "MORFOLOGIK_RULE_EN_US",
+                "description": "Possible spelling mistake",
+                "issueType": "misspelling",
+                "category": {
+                    "id": "TYPOS",
+                    "name": "Possible Typo"
+                }
+            }
+        },
+        {
+            "message": "Possible spelling mistake found",
+            "shortMessage": "Spelling mistake",
+            "replacements": [
+                {
+                    "value": "along"
+                },
+                {
+                    "value": "alone"
+                },
+                {
+                    "value": "Alan"
+                },
+                {
+                    "value": "salon"
+                },
+                {
+                    "value": "Avon"
+                },
+                {
+                    "value": "Alton"
+                },
+                {
+                    "value": "axon"
+                },
+                {
+                    "value": "Aron"
+                },
+                {
+                    "value": "Lon"
+                },
+                {
+                    "value": "aloe"
+                },
+                {
+                    "value": "talon"
+                },
+                {
+                    "value": "anon"
+                },
+                {
+                    "value": "halon"
+                },
+                {
+                    "value": "Halon"
+                },
+                {
+                    "value": "ALN"
+                },
+                {
+                    "value": "ALO"
+                },
+                {
+                    "value": "AON"
+                }
+            ],
+            "offset": 21,
+            "length": 4,
+            "context": {
+                "text": "I agre finanshal aid alon no solv povrty in por cuntry. Rich nash...",
+                "offset": 21,
+                "length": 4
+            },
+            "sentence": "I agre finanshal aid alon no solv povrty in por cuntry.",
+            "type": {
+                "typeName": "Other"
+            },
+            "rule": {
+                "id": "MORFOLOGIK_RULE_EN_US",
+                "description": "Possible spelling mistake",
+                "issueType": "misspelling",
+                "category": {
+                    "id": "TYPOS",
+                    "name": "Possible Typo"
+                }
+            }
+        },
+        {
+            "message": "Possible spelling mistake found",
+            "shortMessage": "Spelling mistake",
+            "replacements": [
+                {
+                    "value": "sold"
+                },
+                {
+                    "value": "solo"
+                },
+                {
+                    "value": "sole"
+                },
+                {
+                    "value": "solve"
+                },
+                {
+                    "value": "Sol"
+                },
+                {
+                    "value": "sols"
+                },
+                {
+                    "value": "sol"
+                },
+                {
+                    "value": "sol v"
+                },
+                {
+                    "value": "SLV"
+                }
+            ],
+            "offset": 29,
+            "length": 4,
+            "context": {
+                "text": "I agre finanshal aid alon no solv povrty in por cuntry. Rich nashun shud ...",
+                "offset": 29,
+                "length": 4
+            },
+            "sentence": "I agre finanshal aid alon no solv povrty in por cuntry.",
+            "type": {
+                "typeName": "Other"
+            },
+            "rule": {
+                "id": "MORFOLOGIK_RULE_EN_US",
+                "description": "Possible spelling mistake",
+                "issueType": "misspelling",
+                "category": {
+                    "id": "TYPOS",
+                    "name": "Possible Typo"
+                }
+            }
+        },
+        {
+            "message": "Possible spelling mistake found",
+            "shortMessage": "Spelling mistake",
+            "replacements": [
+                {
+                    "value": "poverty"
+                }
+            ],
+            "offset": 34,
+            "length": 6,
+            "context": {
+                "text": "I agre finanshal aid alon no solv povrty in por cuntry. Rich nashun shud giv oth...",
+                "offset": 34,
+                "length": 6
+            },
+            "sentence": "I agre finanshal aid alon no solv povrty in por cuntry.",
+            "type": {
+                "typeName": "Other"
+            },
+            "rule": {
+                "id": "MORFOLOGIK_RULE_EN_US",
+                "description": "Possible spelling mistake",
+                "issueType": "misspelling",
+                "category": {
+                    "id": "TYPOS",
+                    "name": "Possible Typo"
+                }
+            }
+        },
+        {
+            "message": "Possible spelling mistake found",
+            "shortMessage": "Spelling mistake",
+            "replacements": [
+                {
+                    "value": "for"
+                },
+                {
+                    "value": "or"
+                },
+                {
+                    "value": "poor"
+                },
+                {
+                    "value": "nor"
+                },
+                {
+                    "value": "pop"
+                },
+                {
+                    "value": "port"
+                },
+                {
+                    "value": "pro"
+                },
+                {
+                    "value": "Port"
+                },
+                {
+                    "value": "per"
+                },
+                {
+                    "value": "pot"
+                },
+                {
+                    "value": "PR"
+                },
+                {
+                    "value": "par"
+                },
+                {
+                    "value": "pod"
+                },
+                {
+                    "value": "pork"
+                },
+                {
+                    "value": "pour"
+                },
+                {
+                    "value": "pore"
+                },
+                {
+                    "value": "pox"
+                },
+                {
+                    "value": "pow"
+                },
+                {
+                    "value": "xor"
+                },
+                {
+                    "value": "ppr"
+                },
+                {
+                    "value": "OR"
+                },
+                {
+                    "value": "PO"
+                },
+                {
+                    "value": "POW"
+                },
+                {
+                    "value": "Po"
+                },
+                {
+                    "value": "Poe"
+                },
+                {
+                    "value": "Pol"
+                },
+                {
+                    "value": "Pr"
+                },
+                {
+                    "value": "cor"
+                },
+                {
+                    "value": "poi"
+                },
+                {
+                    "value": "pol"
+                },
+                {
+                    "value": "pom"
+                },
+                {
+                    "value": "poo"
+                },
+                {
+                    "value": "porn"
+                },
+                {
+                    "value": "pr"
+                },
+                {
+                    "value": "tor"
+                },
+                {
+                    "value": "p or"
+                },
+                {
+                    "value": "POR"
+                },
+                {
+                    "value": "AOR"
+                },
+                {
+                    "value": "IOR"
+                },
+                {
+                    "value": "JOR"
+                },
+                {
+                    "value": "KOR"
+                },
+                {
+                    "value": "NOR"
+                },
+                {
+                    "value": "PAR"
+                },
+                {
+                    "value": "PBR"
+                },
+                {
+                    "value": "PCR"
+                },
+                {
+                    "value": "PER"
+                },
+                {
+                    "value": "PFR"
+                },
+                {
+                    "value": "PHR"
+                },
+                {
+                    "value": "PLR"
+                },
+                {
+                    "value": "PMR"
+                },
+                {
+                    "value": "PNR"
+                },
+                {
+                    "value": "POA"
+                },
+                {
+                    "value": "POB"
+                },
+                {
+                    "value": "POE"
+                },
+                {
+                    "value": "POF"
+                },
+                {
+                    "value": "POH"
+                },
+                {
+                    "value": "POI"
+                },
+                {
+                    "value": "POL"
+                },
+                {
+                    "value": "POM"
+                },
+                {
+                    "value": "PON"
+                },
+                {
+                    "value": "POO"
+                },
+                {
+                    "value": "POP"
+                },
+                {
+                    "value": "POS"
+                },
+                {
+                    "value": "POU"
+                },
+                {
+                    "value": "POV"
+                },
+                {
+                    "value": "PPR"
+                },
+                {
+                    "value": "PQR"
+                },
+                {
+                    "value": "PRR"
+                },
+                {
+                    "value": "PSR"
+                },
+                {
+                    "value": "PTR"
+                },
+                {
+                    "value": "PUR"
+                },
+                {
+                    "value": "PVR"
+                },
+                {
+                    "value": "PWR"
+                },
+                {
+                    "value": "ROR"
+                },
+                {
+                    "value": "TOR"
+                },
+                {
+                    "value": "VOR"
+                }
+            ],
+            "offset": 44,
+            "length": 3,
+            "context": {
+                "text": "...re finanshal aid alon no solv povrty in por cuntry. Rich nashun shud giv othr halp ...",
+                "offset": 43,
+                "length": 3
+            },
+            "sentence": "I agre finanshal aid alon no solv povrty in por cuntry.",
+            "type": {
+                "typeName": "Other"
+            },
+            "rule": {
+                "id": "MORFOLOGIK_RULE_EN_US",
+                "description": "Possible spelling mistake",
+                "issueType": "misspelling",
+                "category": {
+                    "id": "TYPOS",
+                    "name": "Possible Typo"
+                }
+            }
+        },
+        {
+            "message": "Possible spelling mistake found",
+            "shortMessage": "Spelling mistake",
+            "replacements": [
+                {
+                    "value": "country"
+                }
+            ],
+            "offset": 48,
+            "length": 6,
+            "context": {
+                "text": "...inanshal aid alon no solv povrty in por cuntry. Rich nashun shud giv othr halp instd o...",
+                "offset": 43,
+                "length": 6
+            },
+            "sentence": "I agre finanshal aid alon no solv povrty in por cuntry.",
+            "type": {
+                "typeName": "Other"
+            },
+            "rule": {
+                "id": "MORFOLOGIK_RULE_EN_US",
+                "description": "Possible spelling mistake",
+                "issueType": "misspelling",
+                "category": {
+                    "id": "TYPOS",
+                    "name": "Possible Typo"
+                }
+            }
+        },
+        {
+            "message": "Possible spelling mistake found",
+            "shortMessage": "Spelling mistake",
+            "replacements": [
+                {
+                    "value": "nation"
+                },
+                {
+                    "value": "Nation"
+                },
+                {
+                    "value": "nations"
+                },
+                {
+                    "value": "notion"
+                },
+                {
+                    "value": "ration"
+                },
+                {
+                    "value": "Nashua"
+                },
+                {
+                    "value": "cation"
+                }
+            ],
+            "offset": 61,
+            "length": 6,
+            "context": {
+                "text": "...alon no solv povrty in por cuntry. Rich nashun shud giv othr halp instd of mony.",
+                "offset": 43,
+                "length": 6
+            },
+            "sentence": "Rich nashun shud giv othr halp instd of mony.",
+            "type": {
+                "typeName": "Other"
+            },
+            "rule": {
+                "id": "MORFOLOGIK_RULE_EN_US",
+                "description": "Possible spelling mistake",
+                "issueType": "misspelling",
+                "category": {
+                    "id": "TYPOS",
+                    "name": "Possible Typo"
+                }
+            }
+        },
+        {
+            "message": "Possible spelling mistake found",
+            "shortMessage": "Spelling mistake",
+            "replacements": [
+                {
+                    "value": "shut"
+                },
+                {
+                    "value": "shed"
+                },
+                {
+                    "value": "HUD"
+                },
+                {
+                    "value": "shad"
+                },
+                {
+                    "value": "shun"
+                },
+                {
+                    "value": "Scud"
+                },
+                {
+                    "value": "spud"
+                },
+                {
+                    "value": "scud"
+                },
+                {
+                    "value": "shod"
+                },
+                {
+                    "value": "stud"
+                },
+                {
+                    "value": "thud"
+                },
+                {
+                    "value": "SHD"
+                },
+                {
+                    "value": "SHU"
+                },
+                {
+                    "value": "SOUD"
+                },
+                {
+                    "value": "SUD"
+                }
+            ],
+            "offset": 68,
+            "length": 4,
+            "context": {
+                "text": "... solv povrty in por cuntry. Rich nashun shud giv othr halp instd of mony.",
+                "offset": 43,
+                "length": 4
+            },
+            "sentence": "Rich nashun shud giv othr halp instd of mony.",
+            "type": {
+                "typeName": "Other"
+            },
+            "rule": {
+                "id": "MORFOLOGIK_RULE_EN_US",
+                "description": "Possible spelling mistake",
+                "issueType": "misspelling",
+                "category": {
+                    "id": "TYPOS",
+                    "name": "Possible Typo"
+                }
+            }
+        },
+        {
+            "message": "Possible spelling mistake found",
+            "shortMessage": "Spelling mistake",
+            "replacements": [
+                {
+                    "value": "give"
+                },
+                {
+                    "value": "gig"
+                },
+                {
+                    "value": "GI"
+                },
+                {
+                    "value": "Gil"
+                },
+                {
+                    "value": "gin"
+                },
+                {
+                    "value": "gov"
+                },
+                {
+                    "value": "HIV"
+                },
+                {
+                    "value": "GIF"
+                },
+                {
+                    "value": "IV"
+                },
+                {
+                    "value": "div"
+                },
+                {
+                    "value": "git"
+                },
+                {
+                    "value": "guv"
+                },
+                {
+                    "value": "iv"
+                },
+                {
+                    "value": "riv"
+                },
+                {
+                    "value": "xiv"
+                },
+                {
+                    "value": "g iv"
+                },
+                {
+                    "value": "AIV"
+                },
+                {
+                    "value": "BIV"
+                },
+                {
+                    "value": "CIV"
+                },
+                {
+                    "value": "DIV"
+                },
+                {
+                    "value": "FIV"
+                },
+                {
+                    "value": "GAV"
+                },
+                {
+                    "value": "GEV"
+                },
+                {
+                    "value": "GIB"
+                },
+                {
+                    "value": "GIE"
+                },
+                {
+                    "value": "GIH"
+                },
+                {
+                    "value": "GIL"
+                },
+                {
+                    "value": "GIP"
+                },
+                {
+                    "value": "GIS"
+                },
+                {
+                    "value": "GNV"
+                },
+                {
+                    "value": "GPV"
+                },
+                {
+                    "value": "GV"
+                },
+                {
+                    "value": "OIV"
+                },
+                {
+                    "value": "SIV"
+                },
+                {
+                    "value": "TIV"
+                },
+                {
+                    "value": "YIV"
+                }
+            ],
+            "offset": 73,
+            "length": 3,
+            "context": {
+                "text": "... povrty in por cuntry. Rich nashun shud giv othr halp instd of mony.",
+                "offset": 43,
+                "length": 3
+            },
+            "sentence": "Rich nashun shud giv othr halp instd of mony.",
+            "type": {
+                "typeName": "Other"
+            },
+            "rule": {
+                "id": "MORFOLOGIK_RULE_EN_US",
+                "description": "Possible spelling mistake",
+                "issueType": "misspelling",
+                "category": {
+                    "id": "TYPOS",
+                    "name": "Possible Typo"
+                }
+            }
+        },
+        {
+            "message": "Possible spelling mistake found",
+            "shortMessage": "Spelling mistake",
+            "replacements": [
+                {
+                    "value": "other"
+                }
+            ],
+            "offset": 77,
+            "length": 4,
+            "context": {
+                "text": "...rty in por cuntry. Rich nashun shud giv othr halp instd of mony.",
+                "offset": 43,
+                "length": 4
+            },
+            "sentence": "Rich nashun shud giv othr halp instd of mony.",
+            "type": {
+                "typeName": "Other"
+            },
+            "rule": {
+                "id": "MORFOLOGIK_RULE_EN_US",
+                "description": "Possible spelling mistake",
+                "issueType": "misspelling",
+                "category": {
+                    "id": "TYPOS",
+                    "name": "Possible Typo"
+                }
+            }
+        },
+        {
+            "message": "Possible spelling mistake found",
+            "shortMessage": "Spelling mistake",
+            "replacements": [
+                {
+                    "value": "half"
+                },
+                {
+                    "value": "help"
+                },
+                {
+                    "value": "Hall"
+                },
+                {
+                    "value": "hall"
+                },
+                {
+                    "value": "halt"
+                },
+                {
+                    "value": "harp"
+                },
+                {
+                    "value": "Hale"
+                },
+                {
+                    "value": "halo"
+                },
+                {
+                    "value": "Hals"
+                },
+                {
+                    "value": "alp"
+                },
+                {
+                    "value": "hale"
+                },
+                {
+                    "value": "hap"
+                },
+                {
+                    "value": "hasp"
+                },
+                {
+                    "value": "Hal"
+                },
+                {
+                    "value": "h alp"
+                },
+                {
+                    "value": "ALP"
+                },
+                {
+                    "value": "HALE"
+                },
+                {
+                    "value": "HAP"
+                },
+                {
+                    "value": "HLP"
+                }
+            ],
+            "offset": 82,
+            "length": 4,
+            "context": {
+                "text": "...n por cuntry. Rich nashun shud giv othr halp instd of mony.",
+                "offset": 43,
+                "length": 4
+            },
+            "sentence": "Rich nashun shud giv othr halp instd of mony.",
+            "type": {
+                "typeName": "Other"
+            },
+            "rule": {
+                "id": "MORFOLOGIK_RULE_EN_US",
+                "description": "Possible spelling mistake",
+                "issueType": "misspelling",
+                "category": {
+                    "id": "TYPOS",
+                    "name": "Possible Typo"
+                }
+            }
+        },
+        {
+            "message": "Possible spelling mistake found",
+            "shortMessage": "Spelling mistake",
+            "replacements": [
+                {
+                    "value": "Inst"
+                },
+                {
+                    "value": "inst"
+                },
+                {
+                    "value": "instr"
+                },
+                {
+                    "value": "in std"
+                },
+                {
+                    "value": "inst d"
+                }
+            ],
+            "offset": 87,
+            "length": 5,
+            "context": {
+                "text": "... cuntry. Rich nashun shud giv othr halp instd of mony.",
+                "offset": 43,
+                "length": 5
+            },
+            "sentence": "Rich nashun shud giv othr halp instd of mony.",
+            "type": {
+                "typeName": "Other"
+            },
+            "rule": {
+                "id": "MORFOLOGIK_RULE_EN_US",
+                "description": "Possible spelling mistake",
+                "issueType": "misspelling",
+                "category": {
+                    "id": "TYPOS",
+                    "name": "Possible Typo"
+                }
+            }
+        },
+        {
+            "message": "Possible spelling mistake found",
+            "shortMessage": "Spelling mistake",
+            "replacements": [
+                {
+                    "value": "many"
+                },
+                {
+                    "value": "money"
+                },
+                {
+                    "value": "Tony"
+                },
+                {
+                    "value": "monk"
+                },
+                {
+                    "value": "Sony"
+                },
+                {
+                    "value": "mono"
+                },
+                {
+                    "value": "Monk"
+                },
+                {
+                    "value": "Mont"
+                },
+                {
+                    "value": "bony"
+                },
+                {
+                    "value": "pony"
+                },
+                {
+                    "value": "Mon"
+                },
+                {
+                    "value": "Mona"
+                },
+                {
+                    "value": "Mons"
+                },
+                {
+                    "value": "tony"
+                },
+                {
+                    "value": "Monty"
+                },
+                {
+                    "value": "cony"
+                },
+                {
+                    "value": "MON"
+                },
+                {
+                    "value": "MOND"
+                }
+            ],
+            "offset": 96,
+            "length": 4,
+            "context": {
+                "text": "...Rich nashun shud giv othr halp instd of mony.",
+                "offset": 43,
+                "length": 4
+            },
+            "sentence": "Rich nashun shud giv othr halp instd of mony.",
+            "type": {
+                "typeName": "Other"
+            },
+            "rule": {
+                "id": "MORFOLOGIK_RULE_EN_US",
+                "description": "Possible spelling mistake",
+                "issueType": "misspelling",
+                "category": {
+                    "id": "TYPOS",
+                    "name": "Possible Typo"
+                }
+            }
+        }
+    ]
+}

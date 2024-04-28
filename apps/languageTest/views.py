@@ -1,10 +1,18 @@
 import json
+import re
+import requests
 
+import nltk
 from django.db import transaction
 from django.db.models import Sum
 from django.http import JsonResponse
 from .models import LanguageTest, Question, Answer, LanguageTestQuestion, QuestionAnswer, StudentLanguageTest
 from django.shortcuts import get_object_or_404
+
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
+
+import numpy as np
 
 import pandas as pd
 from keras.preprocessing.text import Tokenizer
@@ -12,13 +20,15 @@ from keras.preprocessing.sequence import pad_sequences
 from keras.models import load_model
 from rest_framework.decorators import api_view
 import random
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 
 from ..users.models import Student
 
 loaded_model = load_model('D:\DjangoProjects\woow-academy-backend\my_model.h5')
 data = pd.read_csv("D:\DjangoProjects\woow-academy-backend\ielts_writing_dataset.csv")
-X = data['Essay']
-y = data['Overall']
+X = data['essay']
+y = data['marks']
 
 tokenizer = Tokenizer()
 tokenizer.fit_on_texts(X)
@@ -28,6 +38,17 @@ X_pad = pad_sequences(X_seq)
 vocab_size = len(tokenizer.word_index) + 1
 embedding_dim = 100
 maxlen = len(max(X_seq, key=len))
+
+# Load the keywords from the JSON file
+with open('keywords.json', 'r') as f:
+    keywords_data = json.load(f)
+
+# Load JSON file
+with open('D:/DjangoProjects/woow-academy-backend/answer.json', 'r') as file:
+    sample_answers = json.load(file)
+
+nltk.download('punkt')
+nltk.download('stopwords')
 
 
 # Endpoint to create a language test with random questions
@@ -94,7 +115,38 @@ def submit_answer(request):
             duration = float(response.get('duration', 0))
             answer_description = response.get('answerDesc')
 
+            # keywords marks
+            keywords_marks, keywords_list = assign_marks_from_keywords(question_id, answer_description)
+            print("Keywords marks :", keywords_marks)
+
+            # Keywords Order
+            lower_keywords_list = [word.lower() for word in keywords_list]
+            matching_keywords_from_answer = keyword_matching(answer_description.lower(), lower_keywords_list)
+            matching_keywords_list = remove_different_keywords(lower_keywords_list, matching_keywords_from_answer)
+            matching_words_count = count_words_in_correct_order(matching_keywords_list, matching_keywords_from_answer)
+            keyword_order_score = (matching_words_count / len(matching_keywords_list)) * 10
+            print("Keyword_order Score", keyword_order_score)
+
+            # Grammar Check
+            error_count = grammar_check(answer_description)
+            print('error_count :', error_count)
+            no_words_answer = len(answer_description.split())
+            print('no_words_answer :', no_words_answer)
+            grammar_score = ((no_words_answer - error_count) / no_words_answer) * 10
+            print('grammar_score % :', grammar_score)
+
+            # Predict Score from model
             rounded_score = predict_score(answer_description)
+
+            # calculate the similarity
+            filtered_sample_answers = [sample for sample in sample_answers if
+                                       int(sample['marks']) == rounded_score and int(sample[
+                                                                                         'questionId']) == int(
+                                           question_id)]
+
+            max_similarity = get_max_similarity(filtered_sample_answers, answer_description)
+            print("Maximum Cosine Similarity Score:", max_similarity)
+
             additional_points = 0
             if 6 <= rounded_score <= 9:
                 if duration <= 6:
@@ -102,10 +154,13 @@ def submit_answer(request):
                 elif 6 < duration <= 8:
                     additional_points = 0.25
 
-            final_marks = rounded_score + additional_points
-            print('rounded score : ' + str(rounded_score))
-            print('additional point : ' + str(additional_points))
-            print('final marks : ' + str(final_marks))
+            model_total_score = rounded_score + additional_points
+            print('Model Score : ' + str(rounded_score))
+            print('Additional Time Score : ' + str(additional_points))
+            print('model_total_score : ' + str(model_total_score))
+
+            final_marks = ((model_total_score * 3) + (keywords_marks * 2.5) + (max_similarity * 2) + (grammar_score * 1.5) + keyword_order_score) / 10
+            print('final_marks : ' + str(final_marks))
 
             with transaction.atomic():
                 answer = Answer.objects.create(
@@ -126,6 +181,91 @@ def submit_answer(request):
 
     else:
         return JsonResponse({'error': 'Only POST requests are allowed'}, status=405)
+
+
+def grammar_check(answer):
+    url = "https://grammarbot.p.rapidapi.com/check"
+    headers = {
+        "content-type": "application/x-www-form-urlencoded",
+        "X-RapidAPI-Key": "1f1c14c932mshd86ffe8e05de6dap1a9507jsnb7e7aa444443",
+        "X-RapidAPI-Host": "grammarbot.p.rapidapi.com"
+    }
+    params = {
+        "text": answer,
+        "language": "en-US"
+    }
+
+    response = requests.post(url, headers=headers, params=params)
+
+    if response.status_code == 200:
+        json_data = response.json()
+        matches_count = len(json_data.get("matches", []))
+        return matches_count
+    else:
+        # Handle error cases
+        return None
+
+
+def cosine_similarity(X, Y):
+    X_list = word_tokenize(X)
+    Y_list = word_tokenize(Y)
+
+    sw = stopwords.words('english')
+    X_set = {w for w in X_list if not w in sw}
+    Y_set = {w for w in Y_list if not w in sw}
+
+    rvector = X_set.union(Y_set)
+    l1 = [1 if w in X_set else 0 for w in rvector]
+    l2 = [1 if w in Y_set else 0 for w in rvector]
+
+    dot_product = np.dot(l1, l2)
+    magnitude_X = np.linalg.norm(l1)
+    magnitude_Y = np.linalg.norm(l2)
+    cosine = dot_product / (magnitude_X * magnitude_Y)
+
+    similarity_percentage = cosine * 10
+
+    return similarity_percentage
+
+
+def get_max_similarity(sample_answers, given_answer):
+    max_similarity = 0
+    for sample in sample_answers:
+        essay = sample['essay']
+        similarity = cosine_similarity(essay, given_answer)
+        max_similarity = max(max_similarity, similarity)
+    return max_similarity
+
+
+def clean_text(text):
+    text = re.sub(r'[^\w\s]', '', text)
+    text = text.lower()
+    return text
+
+
+def split_keywords(keywords):
+    split_words = []
+    for keyword in keywords:
+        split_words.extend(keyword.split())
+    return split_words
+
+
+def assign_marks_from_keywords(question_id, answer):
+    max_marks = 0
+    max_keywords = []
+    answer = clean_text(answer)
+
+    relevant_keywords = [data for data in keywords_data if data["questionId"] == question_id]
+
+    for question_data in relevant_keywords:
+        # Split multi-word keywords into individual words
+        all_keywords = split_keywords(question_data["keywords"])
+        common_keywords = set(map(str.lower, all_keywords)) & set(answer.split())
+        if len(common_keywords) > len(max_keywords):
+            max_keywords = common_keywords
+            max_marks = question_data["marks"]
+
+    return max_marks, question_data["keywords"]
 
 
 @api_view(['POST'])
@@ -162,3 +302,80 @@ def predict_score(answer):
     rounded_score = round(predicted_score[0][0])
 
     return rounded_score
+
+
+def keyword_matching(answer, keywords_list):
+    matching_keywords_in_answer = []
+    answer_words_list = answer.split()
+    print('keywords_list :', keywords_list)
+
+    try:
+        for i in range(len(answer_words_list)):
+            new_word_1 = answer_words_list[i] + ' ' + answer_words_list[i + 1] + ' ' + answer_words_list[i + 2] + ' ' + \
+                         answer_words_list[i + 3]
+            for keyword in keywords_list:
+                if keyword == new_word_1:
+                    matching_keywords_in_answer.append(keyword)
+                    break
+            new_word_2 = answer_words_list[i] + ' ' + answer_words_list[i + 1] + ' ' + answer_words_list[i + 2]
+            for keyword in keywords_list:
+                if keyword == new_word_2:
+                    matching_keywords_in_answer.append(keyword)
+                    break
+            new_word_3 = answer_words_list[i] + ' ' + answer_words_list[i + 1]
+            for keyword in keywords_list:
+                if keyword == new_word_3:
+                    matching_keywords_in_answer.append(keyword)
+                    break
+            new_word_4 = answer_words_list[i]
+            for keyword in keywords_list:
+                if keyword == new_word_4:
+                    matching_keywords_in_answer.append(keyword)
+                    break
+    except:
+        print("issue")
+
+    return matching_keywords_in_answer
+
+
+def remove_different_keywords(keyword_list, matching_answer_keywords_list):
+    temp_keyword_list = [] + keyword_list
+    print('temp_keyword_list : ', temp_keyword_list)
+    for word in keyword_list:
+        matching_status = 'false'
+        for matching_word in matching_answer_keywords_list:
+            if word == matching_word:
+                matching_status = 'true'
+                break
+        if matching_status == 'false':
+            temp_keyword_list.remove(word)
+
+    print('Updated temp_keyword_list : ', temp_keyword_list)
+    return temp_keyword_list
+
+
+def count_words_in_correct_order(keywords_from_list, keywords_from_answer):
+    keywords_from_list_lower = [phrase.lower() for phrase in keywords_from_list]
+    keywords_from_answer_lower = [phrase.lower() for phrase in keywords_from_answer]
+
+    correct_order_count = 0
+
+    for i in range(len(keywords_from_list_lower)):
+        if i == len(keywords_from_list_lower) - 1:
+            left_word_index = keywords_from_answer_lower.index(keywords_from_list_lower[i - 1])
+            right_word_index = keywords_from_answer_lower.index(keywords_from_list_lower[i])
+            if (right_word_index - left_word_index) == 1:
+                correct_order_count = correct_order_count + 1
+            break
+        left_word_index = keywords_from_answer_lower.index(keywords_from_list_lower[i])
+        right_word_index = keywords_from_answer_lower.index(keywords_from_list_lower[i + 1])
+        if (right_word_index - left_word_index) == 1:
+            correct_order_count = correct_order_count + 1
+        elif i != 0:
+            left_word_index = keywords_from_answer_lower.index(keywords_from_list_lower[i - 1])
+            right_word_index = keywords_from_answer_lower.index(keywords_from_list_lower[i])
+            if (right_word_index - left_word_index) == 1:
+                correct_order_count = correct_order_count + 1
+
+    return correct_order_count
+

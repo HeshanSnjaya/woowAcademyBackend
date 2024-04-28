@@ -16,7 +16,7 @@ from nltk.corpus import stopwords
 # Load the dataset
 df = pd.read_csv('D:\DjangoProjects\woow-academy-backend\job_dataset_3.csv')
 
-from apps.users.models import CV_Profile, Student
+from apps.users.models import CV_Profile, Student, Skill, Education
 
 best_clf = joblib.load('D:\DjangoProjects\woow-academy-backend\decision_tree_model_2.pkl')
 imputer = joblib.load('D:\DjangoProjects\woow-academy-backend\decision_imputer_2.pkl')
@@ -87,6 +87,7 @@ def get_cv_profile_by_username(request, username):
     except Student.DoesNotExist:
         return JsonResponse([], safe=False)
 
+
 @require_GET
 def get_cv_profiles_by_level(request, level):
     try:
@@ -114,21 +115,33 @@ def get_cv_profiles_by_level(request, level):
 def get_top_names(request):
     if request.method == 'GET':
         try:
-            if request.body:
-                data = json.loads(request.body.decode('utf-8'))
+            data = json.loads(request.body.decode('utf-8'))
 
-                given_education = data.get('education')
-                given_skill_name = data.get('skill_name')
+            given_education = data.get('education')
+            given_skill_name = data.get('skill_name')
 
-                top_names = get_top_similar_user_names(given_education, given_skill_name)
+            top_cv_profiles_with_similarity = get_top_similar_cv_profiles(given_education, given_skill_name)
 
-                return JsonResponse({'top_names': top_names})
-            else:
-                return JsonResponse({'error': 'Request body is empty'}, status=400)
+            serialized_cv_profiles = []
+            for cv_profile, similarity in top_cv_profiles_with_similarity:
+                serialized_cv_profiles.append({
+                    'cvID': cv_profile.cvID,
+                    'studentID': cv_profile.studentID.studentID,
+                    'username': cv_profile.studentID.userName,
+                    'email': cv_profile.studentID.email,
+                    'level': cv_profile.studentID.level,
+                    'profile_img': cv_profile.profile_img,
+                    'about': cv_profile.about,
+                    'points': cv_profile.points,
+                    'similarity': similarity  # Include similarity value
+                })
+
+            return JsonResponse(serialized_cv_profiles, safe=False)
         except Exception as e:
             return JsonResponse({'error': str(e)}, status=400)
     else:
         return JsonResponse({'error': 'Method not allowed'}, status=405)
+
 
 def cosine_similarity(X, Y):
     X_list = word_tokenize(X)
@@ -147,20 +160,38 @@ def cosine_similarity(X, Y):
     magnitude_Y = np.linalg.norm(l2)
     cosine = dot_product / (magnitude_X * magnitude_Y)
 
-    similarity_percentage = cosine * 10
+    similarity_percentage = cosine * 100
 
     return similarity_percentage
 
 
-def get_top_similar_user_names(given_education, given_skill_name):
+def get_top_similar_cv_profiles(given_education, given_skill_name):
     similarity_scores = []
 
-    for index, row in df.iterrows():
-        education_similarity = cosine_similarity(row['education'], given_education)
-        skill_similarity = cosine_similarity(row['skills_name'], given_skill_name)
+    all_cv_profiles = CV_Profile.objects.all()
+
+    for cv_profile in all_cv_profiles:
+        education_courses = Education.objects.filter(cvID=cv_profile)
+
+        education_similarity = 0
+        for education_course in education_courses:
+            education_similarity_temp = cosine_similarity(education_course.education_course.lower(), given_education.lower())
+            education_similarity = education_similarity + education_similarity_temp
+        if education_courses:
+            education_similarity /= len(education_courses)  # Taking average similarity
+
+        skills = Skill.objects.filter(cvID=cv_profile)
+
+        skill_similarity = 0
+        for skill in skills:
+            skill_similarity += cosine_similarity(skill.skill_name.lower(), given_skill_name.lower())
+        if skills:
+            skill_similarity /= len(skills)  # Taking average similarity
+
         total_similarity = (education_similarity + skill_similarity) / 2
-        similarity_scores.append((row['userName'], total_similarity))
+        similarity_scores.append((cv_profile, total_similarity))
 
     similarity_scores.sort(key=lambda x: x[1], reverse=True)
-    top_names_with_similarity = [(row[0], row[1]) for row in similarity_scores[:10]]
-    return top_names_with_similarity
+
+    top_cv_profiles_with_similarity = similarity_scores[:10]
+    return top_cv_profiles_with_similarity
